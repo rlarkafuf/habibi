@@ -29,6 +29,9 @@ export const propertyService = {
     if (filters.bedrooms && filters.bedrooms !== 'All') {
       result = result.filter(p => p.bedrooms === filters.bedrooms);
     }
+    if (filters.developer && filters.developer !== 'All') {
+      result = result.filter(p => p.developer === filters.developer);
+    }
     if (filters.minPrice) {
       result = result.filter(p => p.transactionAmountAED >= parseInt(filters.minPrice, 10));
     }
@@ -42,9 +45,12 @@ export const propertyService = {
   /**
    * Calculate project metrics like avg price/sqft and recent transactions
    */
-  async calculateProjectMetrics(projectName) {
+  async calculateProjectMetrics(projectName, bedrooms = null) {
     await delay(100);
-    const projectTransactions = transactions.filter(p => p.projectName === projectName);
+    let projectTransactions = transactions.filter(p => p.projectName === projectName);
+    if (bedrooms) {
+        projectTransactions = projectTransactions.filter(p => p.bedrooms === bedrooms);
+    }
 
     if (projectTransactions.length === 0) {
       return { averagePricePerSqFt: 0, recentTransactions: [] };
@@ -83,16 +89,16 @@ export const propertyService = {
     const propertyPricePerSqFt = property.transactionAmountAED / property.areaSqFt;
     const avgPrice = projectMetrics.averagePricePerSqFt;
 
-    if (!avgPrice || avgPrice === 0) return { badge: "⚖️ Fair Value", type: "fair" };
+    if (!avgPrice || avgPrice === 0) return { badge: "⚖️ 적정 호가", type: "fair", gapRate: 0 };
 
-    const ratio = propertyPricePerSqFt / avgPrice;
+    const gapRate = ((propertyPricePerSqFt - avgPrice) / avgPrice) * 100;
 
-    if (ratio < 0.95) {
-      return { badge: "🔥 Below Market", type: "below" };
-    } else if (ratio > 1.05) {
-      return { badge: "📈 Premium Price", type: "premium" };
+    if (gapRate <= -3) {
+      return { badge: `🔥 평균 시세 대비 ${Math.abs(gapRate).toFixed(1)}% 저렴`, type: "below", gapRate };
+    } else if (gapRate > 3) {
+      return { badge: `📈 시세 대비 +${gapRate.toFixed(1)}%`, type: "premium", gapRate };
     } else {
-      return { badge: "⚖️ Fair Value", type: "fair" };
+      return { badge: "⚖️ 적정 호가", type: "fair", gapRate };
     }
   }
 };

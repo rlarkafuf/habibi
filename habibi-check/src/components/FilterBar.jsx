@@ -6,6 +6,7 @@ export default function FilterBar({ onFilterChange }) {
     location: 'All',
     unitType: 'All',
     bedrooms: 'All',
+    developer: 'All',
     minPrice: '',
     maxPrice: ''
   });
@@ -67,6 +68,21 @@ export default function FilterBar({ onFilterChange }) {
             <option value="1BR">1BR</option>
             <option value="2BR">2BR</option>
             <option value="3BR+">3BR+</option>
+          </select>
+        </div>
+
+        <div className="flex-1 min-w-[150px]">
+          <label className="block text-sm font-medium text-gray-700 mb-1">Developer</label>
+          <select
+            name="developer"
+            value={filters.developer}
+            onChange={handleChange}
+            className="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500 bg-white"
+          >
+            <option value="All">All Developers</option>
+            <option value="Aldar">Aldar</option>
+            <option value="Modon">Modon</option>
+            <option value="IMKAN">IMKAN</option>
           </select>
         </div>
 
