@@ -12,7 +12,10 @@ export default function ProjectCard({ property, metrics }) {
     areaSqFt,
     transactionAmountAED,
     transactionDate,
-    propertyClass
+    propertyClass,
+    developer,
+    serviceCharge,
+    residentRatings
   } = property;
 
   const evaluation = propertyService.evaluateDeal(property, metrics);
@@ -55,6 +58,31 @@ export default function ProjectCard({ property, metrics }) {
             <p className="font-bold text-blue-700 text-lg">{formatCurrency(transactionAmountAED)}</p>
             <p className="text-xs text-gray-500">{new Date(transactionDate).toLocaleDateString()}</p>
           </div>
+        </div>
+
+        <div className="border-t border-gray-100 pt-4 pb-4">
+          <h4 className="text-sm font-semibold text-gray-700 flex items-center gap-2 mb-2">
+            Resident Insights & Features
+          </h4>
+          <div className="flex flex-wrap gap-2 text-xs mb-2">
+            {developer && (
+              <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded">
+                Developer: {developer}
+              </span>
+            )}
+            {serviceCharge && (
+              <span className="bg-orange-50 text-orange-700 px-2 py-1 rounded border border-orange-100">
+                Service Charge: {serviceCharge} AED/sqft
+              </span>
+            )}
+          </div>
+          {residentRatings && (
+            <div className="flex justify-between text-xs text-gray-600 bg-gray-50 p-2 rounded">
+              <span>❄️ Chiller: {residentRatings.chillerEfficiency}/5</span>
+              <span>🚗 Parking: {residentRatings.parkingConvenience}/5</span>
+              <span>🚦 Traffic: {residentRatings.traffic}/5</span>
+            </div>
+          )}
         </div>
 
         <div className="border-t border-gray-100 pt-4">

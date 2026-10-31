@@ -2,16 +2,19 @@ import React, { useState, useEffect } from 'react';
 import { propertyService } from './services/propertyService';
 import FilterBar from './components/FilterBar';
 import ProjectList from './components/ProjectList';
-import { Building2 } from 'lucide-react';
+import MapComponent from './components/MapComponent';
+import { Building2, List, Map as MapIcon } from 'lucide-react';
 import './index.css';
 
 function App() {
   const [properties, setProperties] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [viewMode, setViewMode] = useState('list'); // 'list' or 'map'
   const [filters, setFilters] = useState({
     location: 'All',
     unitType: 'All',
     bedrooms: 'All',
+    developer: 'All',
     minPrice: '',
     maxPrice: ''
   });
@@ -72,14 +75,30 @@ function App() {
           <h3 className="text-lg font-semibold text-gray-800">
             {loading ? 'Searching...' : `Found ${properties.length} Properties`}
           </h3>
+          <div className="flex bg-white rounded-lg p-1 border border-gray-200">
+            <button
+              onClick={() => setViewMode('list')}
+              className={`px-4 py-2 rounded-md flex items-center gap-2 text-sm font-medium transition-colors ${viewMode === 'list' ? 'bg-gray-100 text-gray-900' : 'text-gray-500 hover:text-gray-700'}`}
+            >
+              <List size={16} /> List
+            </button>
+            <button
+              onClick={() => setViewMode('map')}
+              className={`px-4 py-2 rounded-md flex items-center gap-2 text-sm font-medium transition-colors ${viewMode === 'map' ? 'bg-gray-100 text-gray-900' : 'text-gray-500 hover:text-gray-700'}`}
+            >
+              <MapIcon size={16} /> Map
+            </button>
+          </div>
         </div>
 
         {loading ? (
           <div className="flex justify-center items-center py-20">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
           </div>
-        ) : (
+        ) : viewMode === 'list' ? (
           <ProjectList properties={properties} />
+        ) : (
+          <MapComponent properties={properties} />
         )}
       </main>
 

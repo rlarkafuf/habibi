@@ -9,7 +9,12 @@ export const transactions = [
     areaSqFt: 1450,
     transactionAmountAED: 1850000,
     transactionDate: "2023-10-15",
-    propertyClass: "Ready"
+    propertyClass: "Ready",
+    lat: 24.4984,
+    lng: 54.4079,
+    developer: "Aldar",
+    serviceCharge: 15,
+    residentRatings: { chillerEfficiency: 4.5, parkingConvenience: 4.0, traffic: 3.5 }
   },
   {
     id: "2",
@@ -21,7 +26,12 @@ export const transactions = [
     areaSqFt: 2100,
     transactionAmountAED: 2600000,
     transactionDate: "2023-11-02",
-    propertyClass: "Ready"
+    propertyClass: "Ready",
+    lat: 24.4984,
+    lng: 54.4079,
+    developer: "Aldar",
+    serviceCharge: 15,
+    residentRatings: { chillerEfficiency: 4.5, parkingConvenience: 4.0, traffic: 3.5 }
   },
   {
     id: "3",
@@ -33,7 +43,12 @@ export const transactions = [
     areaSqFt: 950,
     transactionAmountAED: 2200000,
     transactionDate: "2023-09-20",
-    propertyClass: "Ready"
+    propertyClass: "Ready",
+    lat: 24.5369,
+    lng: 54.4371,
+    developer: "Aldar",
+    serviceCharge: 18,
+    residentRatings: { chillerEfficiency: 4.8, parkingConvenience: 4.5, traffic: 4.2 }
   },
   {
     id: "4",
@@ -45,7 +60,12 @@ export const transactions = [
     areaSqFt: 4500,
     transactionAmountAED: 6500000,
     transactionDate: "2023-12-10",
-    propertyClass: "Off-plan"
+    propertyClass: "Off-plan",
+    lat: 24.4916,
+    lng: 54.5975,
+    developer: "Aldar",
+    serviceCharge: 10,
+    residentRatings: { chillerEfficiency: 4.2, parkingConvenience: 5.0, traffic: 4.0 }
   },
   {
     id: "5",
@@ -57,7 +77,12 @@ export const transactions = [
     areaSqFt: 880,
     transactionAmountAED: 950000,
     transactionDate: "2024-01-05",
-    propertyClass: "Ready"
+    propertyClass: "Ready",
+    lat: 24.5022,
+    lng: 54.4036,
+    developer: "Aldar",
+    serviceCharge: 16,
+    residentRatings: { chillerEfficiency: 4.0, parkingConvenience: 3.8, traffic: 3.0 }
   },
   {
     id: "6",
@@ -69,7 +94,12 @@ export const transactions = [
     areaSqFt: 5200,
     transactionAmountAED: 8100000,
     transactionDate: "2023-11-18",
-    propertyClass: "Off-plan"
+    propertyClass: "Off-plan",
+    lat: 24.5422,
+    lng: 54.4551,
+    developer: "Aldar",
+    serviceCharge: 12,
+    residentRatings: { chillerEfficiency: 4.6, parkingConvenience: 4.8, traffic: 4.5 }
   },
   {
     id: "7",
@@ -81,7 +111,12 @@ export const transactions = [
     areaSqFt: 480,
     transactionAmountAED: 580000,
     transactionDate: "2024-02-12",
-    propertyClass: "Ready"
+    propertyClass: "Ready",
+    lat: 24.4719,
+    lng: 54.6062,
+    developer: "Aldar",
+    serviceCharge: 14,
+    residentRatings: { chillerEfficiency: 4.1, parkingConvenience: 4.2, traffic: 3.8 }
   },
   {
     id: "8",
@@ -93,6 +128,11 @@ export const transactions = [
     areaSqFt: 1420,
     transactionAmountAED: 1800000,
     transactionDate: "2024-03-01",
-    propertyClass: "Ready"
+    propertyClass: "Ready",
+    lat: 24.4984,
+    lng: 54.4079,
+    developer: "Aldar",
+    serviceCharge: 15,
+    residentRatings: { chillerEfficiency: 4.5, parkingConvenience: 4.0, traffic: 3.5 }
   }
 ];

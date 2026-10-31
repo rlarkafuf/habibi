@@ -13,14 +13,15 @@ export default function ProjectList({ properties }) {
       setLoading(true);
       const newMetricsMap = {};
 
-      const projectNames = [...new Set(properties.map(p => p.projectName))];
+      const uniqueProjectRooms = [...new Set(properties.map(p => `${p.projectName}-${p.bedrooms}`))];
 
-      for (const name of projectNames) {
-        if (!metricsMap[name]) {
-           const metrics = await propertyService.calculateProjectMetrics(name);
-           newMetricsMap[name] = metrics;
+      for (const key of uniqueProjectRooms) {
+        if (!metricsMap[key]) {
+           const [projectName, bedrooms] = key.split('-');
+           const metrics = await propertyService.calculateProjectMetrics(projectName, bedrooms);
+           newMetricsMap[key] = metrics;
         } else {
-           newMetricsMap[name] = metricsMap[name];
+           newMetricsMap[key] = metricsMap[key];
         }
       }
 
@@ -58,7 +59,7 @@ export default function ProjectList({ properties }) {
         <ProjectCard
           key={property.id}
           property={property}
-          metrics={metricsMap[property.projectName] || { averagePricePerSqFt: 0, recentTransactions: [] }}
+          metrics={metricsMap[`${property.projectName}-${property.bedrooms}`] || { averagePricePerSqFt: 0, recentTransactions: [] }}
         />
       ))}
     </div>
