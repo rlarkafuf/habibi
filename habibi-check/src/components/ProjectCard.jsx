@@ -45,10 +45,10 @@ export default function ProjectCard({ property, metrics }) {
 
   return (
     <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow flex flex-col justify-between">
-      <div className="p-5">
+      <div className="p-5 flex-1 flex flex-col">
         <div className="flex justify-between items-start gap-2 mb-3">
-          <div>
-            <div className="flex items-center gap-1.5 mb-1">
+          <div className="min-w-0 flex-1">
+            <div className="flex flex-wrap items-center gap-1.5 mb-1">
               <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-bold bg-indigo-50 text-indigo-700 border border-indigo-100">
                 <ShieldCheck size={12} /> {developer}
               </span>
@@ -56,8 +56,8 @@ export default function ProjectCard({ property, metrics }) {
                 SC ~{serviceChargeSqFt} AED/sqft
               </span>
             </div>
-            <h3 className="text-lg font-bold text-gray-900">{displayName}</h3>
-            <p className="text-gray-500 text-xs flex items-center gap-1 mt-0.5">
+            <h3 className="text-lg font-bold text-gray-900 truncate">{displayName}</h3>
+            <p className="text-gray-500 text-xs flex items-center gap-1 mt-0.5 truncate">
               <MapPin size={13} /> {displayBuilding} • {displayIsland}
             </p>
           </div>

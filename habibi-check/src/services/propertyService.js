@@ -7,13 +7,15 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
  * Precise Dual-Price Gap Engine (호가 vs DARI 실거래가)
  */
 export function analyzePriceGap(askingAED, areaSqFt, bedroom, projectTxs = []) {
-  const sameBedroomTxs = projectTxs.filter(tx => tx.bedrooms === bedroom);
-  const baselinePool = sameBedroomTxs.length > 0 ? sameBedroomTxs : projectTxs;
+  const baselinePool = projectTxs.filter(tx => tx.bedrooms === bedroom);
 
-  const dariAvgSqFt =
-    baselinePool.length > 0
-      ? baselinePool.reduce((sum, tx) => sum + tx.transactionAmountAED / tx.areaSqFt, 0) / baselinePool.length
-      : askingAED / areaSqFt;
+  let dariAvgSqFt = 0;
+  if (baselinePool.length > 0) {
+    const totalSqFtPrice = baselinePool.reduce((sum, tx) => sum + (tx.transactionAmountAED / tx.areaSqFt), 0);
+    dariAvgSqFt = totalSqFtPrice / baselinePool.length;
+  } else {
+    dariAvgSqFt = askingAED / areaSqFt;
+  }
 
   const askingSqFt = askingAED / areaSqFt;
   const rawGap = dariAvgSqFt > 0 ? ((askingSqFt - dariAvgSqFt) / dariAvgSqFt) * 100 : 0;

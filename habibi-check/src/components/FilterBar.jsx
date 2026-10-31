@@ -38,7 +38,7 @@ export default function FilterBar({ onFilterChange }) {
 
   return (
     <div className="bg-white p-4 rounded-xl shadow-sm border border-gray-200 mb-6">
-      <form onSubmit={handleApply} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-7 gap-3 items-end">
+      <form onSubmit={handleApply} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-4 items-end">
         <div>
           <label className="block text-xs font-semibold text-gray-600 mb-1">Island (지역)</label>
           <select
