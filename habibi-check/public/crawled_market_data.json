@@ -1,0 +1,3674 @@
+{
+  "crawledAt": "2026-10-31T15:15:33.122Z",
+  "adrecLastUpdated": "2026-10-30",
+  "totalAdrecRecordsScanned": 123770,
+  "source": "ADREC Official Registry (123,770 Txs, 24 Landmarks)",
+  "data": [
+    {
+      "id": "adrec-sun-sky-towers-1br-1",
+      "name": "Sun & Sky Towers",
+      "projectName": "Sun & Sky Towers",
+      "buildingName": "Sun & Sky, Boutik Mall (1 bed)",
+      "island": "Al Reem Island",
+      "location": "Al Reem Island",
+      "developer": "Aldar",
+      "unitType": "Apartment",
+      "bedrooms": "1BR",
+      "areaSqFt": 991,
+      "areaSqm": 92.07,
+      "transactionAmountAED": 1654970,
+      "askingAED": 1500000,
+      "actualSaleAmountAED": 1500000,
+      "serviceChargeSqFt": 17.5,
+      "completionStatus": "Ready",
+      "propertyClass": "Ready",
+      "coordinates": {
+        "lat": 24.49608,
+        "lng": 54.40768
+      },
+      "transactionDate": "2026-10-30",
+      "portalSource": "ADREC Official Registry (2026-10-30)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1591
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1725
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1626
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-30",
+          "amount": 1500000,
+          "unit": "Sun & Sky, Boutik Mall • 1BR (991 sf)",
+          "pricePerSqFt": 1514
+        },
+        {
+          "date": "2026-10-08",
+          "amount": 1650000,
+          "unit": "Sun & Sky, Boutik Mall • 1BR (914 sf)",
+          "pricePerSqFt": 1805
+        },
+        {
+          "date": "2026-09-18",
+          "amount": 1450000,
+          "unit": "Sun & Sky, Boutik Mall • 1BR (792 sf)",
+          "pricePerSqFt": 1831
+        },
+        {
+          "date": "2026-09-07",
+          "amount": 1550000,
+          "unit": "Sun & Sky, Boutik Mall • 1BR (950 sf)",
+          "pricePerSqFt": 1632
+        },
+        {
+          "date": "2026-08-31",
+          "amount": 1380000,
+          "unit": "Sun & Sky, Boutik Mall • 1BR (953 sf)",
+          "pricePerSqFt": 1448
+        },
+        {
+          "date": "2026-08-24",
+          "amount": 1539749,
+          "unit": "Sun & Sky, Boutik Mall • 1BR (1,084 sf)",
+          "pricePerSqFt": 1420
+        }
+      ]
+    },
+    {
+      "id": "adrec-sun-sky-towers-2br-1",
+      "name": "Sun & Sky Towers",
+      "projectName": "Sun & Sky Towers",
+      "buildingName": "Sun & Sky, Boutik Mall (2 beds)",
+      "island": "Al Reem Island",
+      "location": "Al Reem Island",
+      "developer": "Aldar",
+      "unitType": "Apartment",
+      "bedrooms": "2BR",
+      "areaSqFt": 1544,
+      "areaSqm": 143.42,
+      "transactionAmountAED": 2302104,
+      "askingAED": 2350000,
+      "actualSaleAmountAED": 2350000,
+      "serviceChargeSqFt": 17.5,
+      "completionStatus": "Ready",
+      "propertyClass": "Ready",
+      "coordinates": {
+        "lat": 24.49608,
+        "lng": 54.40768
+      },
+      "transactionDate": "2026-10-22",
+      "portalSource": "ADREC Official Registry (2026-10-22)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1591
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1725
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1626
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-22",
+          "amount": 2350000,
+          "unit": "Sun & Sky, Boutik Mall • 2BR (1,544 sf)",
+          "pricePerSqFt": 1522
+        },
+        {
+          "date": "2026-10-21",
+          "amount": 1000000,
+          "unit": "Sun & Sky, Boutik Mall • 2BR (1,239 sf)",
+          "pricePerSqFt": 807
+        },
+        {
+          "date": "2026-10-16",
+          "amount": 2065000,
+          "unit": "Sun & Sky, Boutik Mall • 2BR (1,240 sf)",
+          "pricePerSqFt": 1665
+        },
+        {
+          "date": "2026-10-05",
+          "amount": 2575000,
+          "unit": "Sun & Sky, Boutik Mall • 2BR (1,681 sf)",
+          "pricePerSqFt": 1532
+        },
+        {
+          "date": "2026-09-14",
+          "amount": 2100000,
+          "unit": "Sun & Sky, Boutik Mall • 2BR (1,311 sf)",
+          "pricePerSqFt": 1602
+        },
+        {
+          "date": "2026-09-14",
+          "amount": 1950000,
+          "unit": "Sun & Sky, Boutik Mall • 2BR (1,545 sf)",
+          "pricePerSqFt": 1262
+        }
+      ]
+    },
+    {
+      "id": "adrec-the-gate-arc-towers-1br-1",
+      "name": "The Gate & Arc Towers",
+      "projectName": "The Gate & Arc Towers",
+      "buildingName": "The Gate and Arc Towers (1 bed)",
+      "island": "Al Reem Island",
+      "location": "Al Reem Island",
+      "developer": "Aldar",
+      "unitType": "Apartment",
+      "bedrooms": "1BR",
+      "areaSqFt": 943,
+      "areaSqm": 87.61,
+      "transactionAmountAED": 1393754,
+      "askingAED": 1255000,
+      "actualSaleAmountAED": 1255000,
+      "serviceChargeSqFt": 18.8,
+      "completionStatus": "Ready",
+      "propertyClass": "Ready",
+      "coordinates": {
+        "lat": 24.49354,
+        "lng": 54.40836
+      },
+      "transactionDate": "2026-10-30",
+      "portalSource": "ADREC Official Registry (2026-10-30)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1435
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1467
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1424
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-30",
+          "amount": 1255000,
+          "unit": "The Gate and Arc Towers • 1BR (943 sf)",
+          "pricePerSqFt": 1331
+        },
+        {
+          "date": "2026-10-22",
+          "amount": 1130000,
+          "unit": "The Gate and Arc Towers • 1BR (720 sf)",
+          "pricePerSqFt": 1569
+        },
+        {
+          "date": "2026-10-19",
+          "amount": 1320000,
+          "unit": "The Gate and Arc Towers • 1BR (905 sf)",
+          "pricePerSqFt": 1459
+        },
+        {
+          "date": "2026-10-16",
+          "amount": 1150000,
+          "unit": "The Gate and Arc Towers • 1BR (897 sf)",
+          "pricePerSqFt": 1282
+        },
+        {
+          "date": "2026-10-01",
+          "amount": 1375000,
+          "unit": "The Gate and Arc Towers • 1BR (943 sf)",
+          "pricePerSqFt": 1458
+        },
+        {
+          "date": "2026-09-24",
+          "amount": 950000,
+          "unit": "The Gate and Arc Towers • 1BR (574 sf)",
+          "pricePerSqFt": 1655
+        }
+      ]
+    },
+    {
+      "id": "adrec-the-gate-arc-towers-2br-1",
+      "name": "The Gate & Arc Towers",
+      "projectName": "The Gate & Arc Towers",
+      "buildingName": "The Gate and Arc Towers (2 beds)",
+      "island": "Al Reem Island",
+      "location": "Al Reem Island",
+      "developer": "Aldar",
+      "unitType": "Apartment",
+      "bedrooms": "2BR",
+      "areaSqFt": 1435,
+      "areaSqm": 133.32,
+      "transactionAmountAED": 2021915,
+      "askingAED": 1740000,
+      "actualSaleAmountAED": 1740000,
+      "serviceChargeSqFt": 18.8,
+      "completionStatus": "Ready",
+      "propertyClass": "Ready",
+      "coordinates": {
+        "lat": 24.49354,
+        "lng": 54.40836
+      },
+      "transactionDate": "2026-10-07",
+      "portalSource": "ADREC Official Registry (2026-10-07)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1435
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1467
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1424
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-07",
+          "amount": 1740000,
+          "unit": "The Gate and Arc Towers • 2BR (1,435 sf)",
+          "pricePerSqFt": 1213
+        },
+        {
+          "date": "2026-10-05",
+          "amount": 1800000,
+          "unit": "The Gate and Arc Towers • 2BR (1,499 sf)",
+          "pricePerSqFt": 1201
+        },
+        {
+          "date": "2026-09-22",
+          "amount": 1800000,
+          "unit": "The Gate and Arc Towers • 2BR (1,324 sf)",
+          "pricePerSqFt": 1360
+        },
+        {
+          "date": "2026-09-15",
+          "amount": 2075000,
+          "unit": "The Gate and Arc Towers • 2BR (1,450 sf)",
+          "pricePerSqFt": 1431
+        },
+        {
+          "date": "2026-07-16",
+          "amount": 1275000,
+          "unit": "The Gate and Arc Towers • 2BR (943 sf)",
+          "pricePerSqFt": 1352
+        },
+        {
+          "date": "2026-05-18",
+          "amount": 1800000,
+          "unit": "The Gate and Arc Towers • 2BR (1,329 sf)",
+          "pricePerSqFt": 1354
+        }
+      ]
+    },
+    {
+      "id": "adrec-marina-square-1br-1",
+      "name": "Marina Square",
+      "projectName": "Marina Square",
+      "buildingName": "Marina Square, Paragon Bay Mall (1 bed)",
+      "island": "Al Reem Island",
+      "location": "Al Reem Island",
+      "developer": "Tamouh",
+      "unitType": "Apartment",
+      "bedrooms": "1BR",
+      "areaSqFt": 861,
+      "areaSqm": 80,
+      "transactionAmountAED": 1166655,
+      "askingAED": 1250000,
+      "actualSaleAmountAED": 1250000,
+      "serviceChargeSqFt": 15.8,
+      "completionStatus": "Ready",
+      "propertyClass": "Ready",
+      "coordinates": {
+        "lat": 24.4913,
+        "lng": 54.39442
+      },
+      "transactionDate": "2026-10-29",
+      "portalSource": "ADREC Official Registry (2026-10-29)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1159
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1302
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1349
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-29",
+          "amount": 1250000,
+          "unit": "Marina Square, Paragon Bay Mall • 1BR (861 sf)",
+          "pricePerSqFt": 1452
+        },
+        {
+          "date": "2026-10-26",
+          "amount": 1350000,
+          "unit": "Marina Square, Paragon Bay Mall • 1BR (915 sf)",
+          "pricePerSqFt": 1475
+        },
+        {
+          "date": "2026-10-14",
+          "amount": 1200000,
+          "unit": "Marina Square, Paragon Bay Mall • 1BR (861 sf)",
+          "pricePerSqFt": 1394
+        },
+        {
+          "date": "2026-10-14",
+          "amount": 1200000,
+          "unit": "Marina Square, Paragon Bay Mall • 1BR (807 sf)",
+          "pricePerSqFt": 1487
+        },
+        {
+          "date": "2026-10-12",
+          "amount": 1200000,
+          "unit": "Marina Square, Paragon Bay Mall • 1BR (861 sf)",
+          "pricePerSqFt": 1394
+        },
+        {
+          "date": "2026-10-08",
+          "amount": 1160000,
+          "unit": "Marina Square, Paragon Bay Mall • 1BR (861 sf)",
+          "pricePerSqFt": 1347
+        }
+      ]
+    },
+    {
+      "id": "adrec-marina-square-2br-1",
+      "name": "Marina Square",
+      "projectName": "Marina Square",
+      "buildingName": "Marina Square, Paragon Bay Mall (2 beds)",
+      "island": "Al Reem Island",
+      "location": "Al Reem Island",
+      "developer": "Tamouh",
+      "unitType": "Apartment",
+      "bedrooms": "2BR",
+      "areaSqFt": 1109,
+      "areaSqm": 103,
+      "transactionAmountAED": 1479406,
+      "askingAED": 1530000,
+      "actualSaleAmountAED": 1530000,
+      "serviceChargeSqFt": 15.8,
+      "completionStatus": "Ready",
+      "propertyClass": "Ready",
+      "coordinates": {
+        "lat": 24.4913,
+        "lng": 54.39442
+      },
+      "transactionDate": "2026-10-26",
+      "portalSource": "ADREC Official Registry (2026-10-26)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1159
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1302
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1349
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-26",
+          "amount": 1530000,
+          "unit": "Marina Square, Paragon Bay Mall • 2BR (1,109 sf)",
+          "pricePerSqFt": 1380
+        },
+        {
+          "date": "2026-10-20",
+          "amount": 1525000,
+          "unit": "Marina Square, Paragon Bay Mall • 2BR (1,109 sf)",
+          "pricePerSqFt": 1375
+        },
+        {
+          "date": "2026-10-14",
+          "amount": 1700000,
+          "unit": "Marina Square, Paragon Bay Mall • 2BR (1,356 sf)",
+          "pricePerSqFt": 1254
+        },
+        {
+          "date": "2026-10-13",
+          "amount": 1699183,
+          "unit": "Marina Square, Paragon Bay Mall • 2BR (1,399 sf)",
+          "pricePerSqFt": 1215
+        },
+        {
+          "date": "2026-10-13",
+          "amount": 1900000,
+          "unit": "Marina Square, Paragon Bay Mall • 2BR (1,399 sf)",
+          "pricePerSqFt": 1358
+        },
+        {
+          "date": "2026-10-01",
+          "amount": 1780000,
+          "unit": "Marina Square, Paragon Bay Mall • 2BR (1,163 sf)",
+          "pricePerSqFt": 1531
+        }
+      ]
+    },
+    {
+      "id": "adrec-reem-hills-2br-1",
+      "name": "Reem Hills",
+      "projectName": "Reem Hills",
+      "buildingName": "Reem Hills - Phase 1C (unclassified)",
+      "island": "Al Reem Island",
+      "location": "Al Reem Island",
+      "developer": "Q Properties",
+      "unitType": "Apartment",
+      "bedrooms": "2BR",
+      "areaSqFt": 3829,
+      "areaSqm": 355.69,
+      "transactionAmountAED": 5352942,
+      "askingAED": 6100000,
+      "actualSaleAmountAED": 6100000,
+      "serviceChargeSqFt": 14.5,
+      "completionStatus": "Off-plan",
+      "propertyClass": "Off-plan",
+      "coordinates": {
+        "lat": 24.48128,
+        "lng": 54.41888
+      },
+      "transactionDate": "2026-10-30",
+      "portalSource": "ADREC Official Registry (2026-10-30)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1058
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 956
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1187
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-30",
+          "amount": 6100000,
+          "unit": "Reem Hills - Phase 1C • 2BR (3,829 sf)",
+          "pricePerSqFt": 1593
+        },
+        {
+          "date": "2026-10-30",
+          "amount": 2350000,
+          "unit": "Reem Hills - Phase 2D • 2BR (1,619 sf)",
+          "pricePerSqFt": 1452
+        },
+        {
+          "date": "2026-10-30",
+          "amount": 1822000,
+          "unit": "Reem Hills - Phase 2D • 2BR (1,693 sf)",
+          "pricePerSqFt": 1076
+        },
+        {
+          "date": "2026-10-30",
+          "amount": 5900000,
+          "unit": "Reem Hills - Phase 2C • 2BR (4,035 sf)",
+          "pricePerSqFt": 1462
+        },
+        {
+          "date": "2026-10-30",
+          "amount": 3904000,
+          "unit": "Reem Hills - Phase 1C • 2BR (3,832 sf)",
+          "pricePerSqFt": 1019
+        },
+        {
+          "date": "2026-10-30",
+          "amount": 13700000,
+          "unit": "Reem Hills - Phase 1A • 2BR (13,139 sf)",
+          "pricePerSqFt": 1043
+        }
+      ]
+    },
+    {
+      "id": "adrec-reem-hills-1br-1",
+      "name": "Reem Hills",
+      "projectName": "Reem Hills",
+      "buildingName": "Reem Hills - Phase 2D (1 bed)",
+      "island": "Al Reem Island",
+      "location": "Al Reem Island",
+      "developer": "Q Properties",
+      "unitType": "Apartment",
+      "bedrooms": "1BR",
+      "areaSqFt": 786,
+      "areaSqm": 72.99,
+      "transactionAmountAED": 1014726,
+      "askingAED": 856800,
+      "actualSaleAmountAED": 856800,
+      "serviceChargeSqFt": 14.5,
+      "completionStatus": "Off-plan",
+      "propertyClass": "Off-plan",
+      "coordinates": {
+        "lat": 24.48128,
+        "lng": 54.41888
+      },
+      "transactionDate": "2026-10-30",
+      "portalSource": "ADREC Official Registry (2026-10-30)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1058
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 956
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1187
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-30",
+          "amount": 856800,
+          "unit": "Reem Hills - Phase 2D • 1BR (786 sf)",
+          "pricePerSqFt": 1090
+        },
+        {
+          "date": "2026-10-30",
+          "amount": 1432500,
+          "unit": "Reem Hills - Phase 2D • 1BR (1,198 sf)",
+          "pricePerSqFt": 1196
+        },
+        {
+          "date": "2026-10-30",
+          "amount": 1500000,
+          "unit": "Reem Hills - Phase 2D • 1BR (995 sf)",
+          "pricePerSqFt": 1508
+        },
+        {
+          "date": "2026-10-30",
+          "amount": 1600000,
+          "unit": "Reem Hills - Phase 2D • 1BR (995 sf)",
+          "pricePerSqFt": 1608
+        },
+        {
+          "date": "2026-10-22",
+          "amount": 1027100,
+          "unit": "Reem Hills - Phase 2D • 1BR (995 sf)",
+          "pricePerSqFt": 1032
+        },
+        {
+          "date": "2026-10-21",
+          "amount": 1500000,
+          "unit": "Reem Hills - Phase 2D • 1BR (1,058 sf)",
+          "pricePerSqFt": 1418
+        }
+      ]
+    },
+    {
+      "id": "adrec-the-bridges-2br-1",
+      "name": "The Bridges",
+      "projectName": "The Bridges",
+      "buildingName": "The Bridges (Towers 1, 2, and 3) (2 beds)",
+      "island": "Al Reem Island",
+      "location": "Al Reem Island",
+      "developer": "Aldar",
+      "unitType": "Apartment",
+      "bedrooms": "2BR",
+      "areaSqFt": 1020,
+      "areaSqm": 94.78,
+      "transactionAmountAED": 1737060,
+      "askingAED": 1870000,
+      "actualSaleAmountAED": 1870000,
+      "serviceChargeSqFt": 16.5,
+      "completionStatus": "Ready",
+      "propertyClass": "Ready",
+      "coordinates": {
+        "lat": 24.50813,
+        "lng": 54.4065
+      },
+      "transactionDate": "2026-10-30",
+      "portalSource": "ADREC Official Registry (2026-10-30)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1673
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1791
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1747
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-30",
+          "amount": 1870000,
+          "unit": "The Bridges (Towers 1, 2, and 3) • 2BR (1,020 sf)",
+          "pricePerSqFt": 1833
+        },
+        {
+          "date": "2026-10-20",
+          "amount": 1900000,
+          "unit": "The Bridges (Towers 1, 2, and 3) • 2BR (999 sf)",
+          "pricePerSqFt": 1902
+        },
+        {
+          "date": "2026-09-15",
+          "amount": 1850000,
+          "unit": "The Bridges (Towers 1, 2, and 3) • 2BR (1,071 sf)",
+          "pricePerSqFt": 1727
+        },
+        {
+          "date": "2026-08-17",
+          "amount": 1800000,
+          "unit": "The Bridges (Towers 1, 2, and 3) • 2BR (1,013 sf)",
+          "pricePerSqFt": 1777
+        },
+        {
+          "date": "2026-07-16",
+          "amount": 1050000,
+          "unit": "The Bridges (Towers 1, 2, and 3) • 2BR (1,071 sf)",
+          "pricePerSqFt": 980
+        },
+        {
+          "date": "2026-06-29",
+          "amount": 1750000,
+          "unit": "The Bridges (Towers 1, 2, and 3) • 2BR (1,071 sf)",
+          "pricePerSqFt": 1634
+        }
+      ]
+    },
+    {
+      "id": "adrec-the-bridges-1br-1",
+      "name": "The Bridges",
+      "projectName": "The Bridges",
+      "buildingName": "The Bridges (Towers 1, 2, and 3) (1 bed)",
+      "island": "Al Reem Island",
+      "location": "Al Reem Island",
+      "developer": "Aldar",
+      "unitType": "Apartment",
+      "bedrooms": "1BR",
+      "areaSqFt": 663,
+      "areaSqm": 61.55,
+      "transactionAmountAED": 1144338,
+      "askingAED": 1265000,
+      "actualSaleAmountAED": 1265000,
+      "serviceChargeSqFt": 16.5,
+      "completionStatus": "Ready",
+      "propertyClass": "Ready",
+      "coordinates": {
+        "lat": 24.50813,
+        "lng": 54.4065
+      },
+      "transactionDate": "2026-10-26",
+      "portalSource": "ADREC Official Registry (2026-10-26)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1673
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1791
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1747
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-26",
+          "amount": 1265000,
+          "unit": "The Bridges (Towers 1, 2, and 3) • 1BR (663 sf)",
+          "pricePerSqFt": 1908
+        },
+        {
+          "date": "2026-10-22",
+          "amount": 1250000,
+          "unit": "The Bridges (Towers 1, 2, and 3) • 1BR (672 sf)",
+          "pricePerSqFt": 1860
+        },
+        {
+          "date": "2026-07-29",
+          "amount": 1250000,
+          "unit": "The Bridges (Towers 1, 2, and 3) • 1BR (663 sf)",
+          "pricePerSqFt": 1885
+        },
+        {
+          "date": "2026-07-22",
+          "amount": 1250000,
+          "unit": "The Bridges (Towers 1, 2, and 3) • 1BR (672 sf)",
+          "pricePerSqFt": 1860
+        },
+        {
+          "date": "2026-06-02",
+          "amount": 1150000,
+          "unit": "The Bridges (Towers 1, 2, and 3) • 1BR (671 sf)",
+          "pricePerSqFt": 1714
+        },
+        {
+          "date": "2026-05-11",
+          "amount": 1280000,
+          "unit": "The Bridges (Towers 1, 2, and 3) • 1BR (671 sf)",
+          "pricePerSqFt": 1908
+        }
+      ]
+    },
+    {
+      "id": "adrec-pixel-makers-district--1br-1",
+      "name": "Pixel (Makers District)",
+      "projectName": "Pixel (Makers District)",
+      "buildingName": "Pixel (1 bed)",
+      "island": "Al Reem Island",
+      "location": "Al Reem Island",
+      "developer": "IMKAN",
+      "unitType": "Apartment",
+      "bedrooms": "1BR",
+      "areaSqFt": 762,
+      "areaSqm": 70.81,
+      "transactionAmountAED": 1485900,
+      "askingAED": 1450000,
+      "actualSaleAmountAED": 1450000,
+      "serviceChargeSqFt": 18,
+      "completionStatus": "Ready",
+      "propertyClass": "Ready",
+      "coordinates": {
+        "lat": 24.50534,
+        "lng": 54.41638
+      },
+      "transactionDate": "2026-10-29",
+      "portalSource": "ADREC Official Registry (2026-10-29)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1898
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1884
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1915
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-29",
+          "amount": 1450000,
+          "unit": "Pixel • 1BR (762 sf)",
+          "pricePerSqFt": 1903
+        },
+        {
+          "date": "2026-09-03",
+          "amount": 1400000,
+          "unit": "Pixel • 1BR (753 sf)",
+          "pricePerSqFt": 1859
+        },
+        {
+          "date": "2026-08-13",
+          "amount": 1330000,
+          "unit": "Pixel • 1BR (747 sf)",
+          "pricePerSqFt": 1780
+        },
+        {
+          "date": "2026-08-05",
+          "amount": 1400000,
+          "unit": "Pixel • 1BR (714 sf)",
+          "pricePerSqFt": 1961
+        },
+        {
+          "date": "2026-08-04",
+          "amount": 1570000,
+          "unit": "Pixel • 1BR (809 sf)",
+          "pricePerSqFt": 1941
+        },
+        {
+          "date": "2026-07-17",
+          "amount": 1600000,
+          "unit": "Pixel • 1BR (733 sf)",
+          "pricePerSqFt": 2183
+        }
+      ]
+    },
+    {
+      "id": "adrec-pixel-makers-district--studio-1",
+      "name": "Pixel (Makers District)",
+      "projectName": "Pixel (Makers District)",
+      "buildingName": "Pixel (studio)",
+      "island": "Al Reem Island",
+      "location": "Al Reem Island",
+      "developer": "IMKAN",
+      "unitType": "Apartment",
+      "bedrooms": "Studio",
+      "areaSqFt": 702,
+      "areaSqm": 65.21,
+      "transactionAmountAED": 1425762,
+      "askingAED": 1100000,
+      "actualSaleAmountAED": 1100000,
+      "serviceChargeSqFt": 18,
+      "completionStatus": "Ready",
+      "propertyClass": "Ready",
+      "coordinates": {
+        "lat": 24.50534,
+        "lng": 54.41638
+      },
+      "transactionDate": "2026-10-28",
+      "portalSource": "ADREC Official Registry (2026-10-28)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1898
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1884
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1915
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-28",
+          "amount": 1100000,
+          "unit": "Pixel • Studio (702 sf)",
+          "pricePerSqFt": 1567
+        },
+        {
+          "date": "2026-10-13",
+          "amount": 1050000,
+          "unit": "Pixel • Studio (508 sf)",
+          "pricePerSqFt": 2067
+        },
+        {
+          "date": "2026-10-07",
+          "amount": 1150000,
+          "unit": "Pixel • Studio (481 sf)",
+          "pricePerSqFt": 2391
+        },
+        {
+          "date": "2026-08-26",
+          "amount": 950000,
+          "unit": "Pixel • Studio (509 sf)",
+          "pricePerSqFt": 1866
+        },
+        {
+          "date": "2026-08-21",
+          "amount": 925000,
+          "unit": "Pixel • Studio (508 sf)",
+          "pricePerSqFt": 1821
+        },
+        {
+          "date": "2026-08-12",
+          "amount": 1200000,
+          "unit": "Pixel • Studio (577 sf)",
+          "pricePerSqFt": 2080
+        }
+      ]
+    },
+    {
+      "id": "adrec-radiant-square-3br-1",
+      "name": "Radiant Square",
+      "projectName": "Radiant Square",
+      "buildingName": "Radiant Square (3 beds)",
+      "island": "Al Reem Island",
+      "location": "Al Reem Island",
+      "developer": "Radiant",
+      "unitType": "Apartment",
+      "bedrooms": "3BR",
+      "areaSqFt": 1629,
+      "areaSqm": 151.31,
+      "transactionAmountAED": 2197521,
+      "askingAED": 1982080,
+      "actualSaleAmountAED": 1982080,
+      "serviceChargeSqFt": 15,
+      "completionStatus": "Ready",
+      "propertyClass": "Ready",
+      "coordinates": {
+        "lat": 24.497,
+        "lng": 54.40463
+      },
+      "transactionDate": "2026-10-28",
+      "portalSource": "ADREC Official Registry (2026-10-28)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1271
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1315
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1287
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-28",
+          "amount": 1982080,
+          "unit": "Radiant Square • 3BR (1,629 sf)",
+          "pricePerSqFt": 1217
+        },
+        {
+          "date": "2026-10-15",
+          "amount": 3224173,
+          "unit": "Radiant Square • 3BR (2,480 sf)",
+          "pricePerSqFt": 1300
+        },
+        {
+          "date": "2026-10-12",
+          "amount": 1700000,
+          "unit": "Radiant Square • 3BR (1,619 sf)",
+          "pricePerSqFt": 1050
+        },
+        {
+          "date": "2026-10-01",
+          "amount": 2650000,
+          "unit": "Radiant Square • 3BR (1,663 sf)",
+          "pricePerSqFt": 1594
+        },
+        {
+          "date": "2026-09-24",
+          "amount": 1817480,
+          "unit": "Radiant Square • 3BR (1,855 sf)",
+          "pricePerSqFt": 980
+        },
+        {
+          "date": "2026-09-15",
+          "amount": 4362835,
+          "unit": "Radiant Square • 3BR (3,749 sf)",
+          "pricePerSqFt": 1164
+        }
+      ]
+    },
+    {
+      "id": "adrec-radiant-square-1br-1",
+      "name": "Radiant Square",
+      "projectName": "Radiant Square",
+      "buildingName": "Radiant Square (1 bed)",
+      "island": "Al Reem Island",
+      "location": "Al Reem Island",
+      "developer": "Radiant",
+      "unitType": "Apartment",
+      "bedrooms": "1BR",
+      "areaSqFt": 857,
+      "areaSqm": 79.63,
+      "transactionAmountAED": 1123527,
+      "askingAED": 938565,
+      "actualSaleAmountAED": 938565,
+      "serviceChargeSqFt": 15,
+      "completionStatus": "Ready",
+      "propertyClass": "Ready",
+      "coordinates": {
+        "lat": 24.497,
+        "lng": 54.40463
+      },
+      "transactionDate": "2026-10-21",
+      "portalSource": "ADREC Official Registry (2026-10-21)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1271
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1315
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1287
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-21",
+          "amount": 938565,
+          "unit": "Radiant Square • 1BR (857 sf)",
+          "pricePerSqFt": 1095
+        },
+        {
+          "date": "2026-10-06",
+          "amount": 849735,
+          "unit": "Radiant Square • 1BR (821 sf)",
+          "pricePerSqFt": 1035
+        },
+        {
+          "date": "2026-09-10",
+          "amount": 1400000,
+          "unit": "Radiant Square • 1BR (821 sf)",
+          "pricePerSqFt": 1705
+        },
+        {
+          "date": "2026-08-14",
+          "amount": 1195000,
+          "unit": "Radiant Square • 1BR (918 sf)",
+          "pricePerSqFt": 1302
+        },
+        {
+          "date": "2026-06-18",
+          "amount": 1207000,
+          "unit": "Radiant Square • 1BR (928 sf)",
+          "pricePerSqFt": 1301
+        },
+        {
+          "date": "2026-06-11",
+          "amount": 841500,
+          "unit": "Radiant Square • 1BR (855 sf)",
+          "pricePerSqFt": 984
+        }
+      ]
+    },
+    {
+      "id": "adrec-city-of-lights-hydra-addax--2br-1",
+      "name": "City of Lights (Hydra / Addax)",
+      "projectName": "City of Lights (Hydra / Addax)",
+      "buildingName": "Hydra Avenue (Hydra Towers) (2 beds)",
+      "island": "Al Reem Island",
+      "location": "Al Reem Island",
+      "developer": "Tamouh",
+      "unitType": "Apartment",
+      "bedrooms": "2BR",
+      "areaSqFt": 1373,
+      "areaSqm": 127.56,
+      "transactionAmountAED": 1466364,
+      "askingAED": 1570000,
+      "actualSaleAmountAED": 1570000,
+      "serviceChargeSqFt": 15.2,
+      "completionStatus": "Ready",
+      "propertyClass": "Ready",
+      "coordinates": {
+        "lat": 24.49968,
+        "lng": 54.403
+      },
+      "transactionDate": "2026-10-29",
+      "portalSource": "ADREC Official Registry (2026-10-29)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1305
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1094
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1277
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-29",
+          "amount": 1570000,
+          "unit": "Hydra Avenue (Hydra Towers) • 2BR (1,373 sf)",
+          "pricePerSqFt": 1143
+        },
+        {
+          "date": "2026-10-28",
+          "amount": 2000000,
+          "unit": "Hydra Avenue (Hydra Towers) • 2BR (1,782 sf)",
+          "pricePerSqFt": 1122
+        },
+        {
+          "date": "2026-10-01",
+          "amount": 1830000,
+          "unit": "Sigma Towers (City of Lights) • 2BR (1,335 sf)",
+          "pricePerSqFt": 1371
+        },
+        {
+          "date": "2026-08-06",
+          "amount": 1565000,
+          "unit": "Sigma Towers (City of Lights) • 2BR (1,335 sf)",
+          "pricePerSqFt": 1172
+        },
+        {
+          "date": "2026-08-06",
+          "amount": 1755000,
+          "unit": "Sigma Towers (City of Lights) • 2BR (1,335 sf)",
+          "pricePerSqFt": 1315
+        },
+        {
+          "date": "2026-08-05",
+          "amount": 1430000,
+          "unit": "Hydra Avenue (Hydra Towers) • 2BR (1,373 sf)",
+          "pricePerSqFt": 1042
+        }
+      ]
+    },
+    {
+      "id": "adrec-city-of-lights-hydra-addax--studio-1",
+      "name": "City of Lights (Hydra / Addax)",
+      "projectName": "City of Lights (Hydra / Addax)",
+      "buildingName": "Hydra Avenue (Hydra Towers) (studio)",
+      "island": "Al Reem Island",
+      "location": "Al Reem Island",
+      "developer": "Tamouh",
+      "unitType": "Apartment",
+      "bedrooms": "Studio",
+      "areaSqFt": 423,
+      "areaSqm": 39.29,
+      "transactionAmountAED": 610812,
+      "askingAED": 634380,
+      "actualSaleAmountAED": 634380,
+      "serviceChargeSqFt": 15.2,
+      "completionStatus": "Ready",
+      "propertyClass": "Ready",
+      "coordinates": {
+        "lat": 24.49968,
+        "lng": 54.403
+      },
+      "transactionDate": "2026-10-21",
+      "portalSource": "ADREC Official Registry (2026-10-21)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1305
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1094
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1277
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-21",
+          "amount": 634380,
+          "unit": "Hydra Avenue (Hydra Towers) • Studio (423 sf)",
+          "pricePerSqFt": 1500
+        },
+        {
+          "date": "2026-10-12",
+          "amount": 750000,
+          "unit": "Hydra Avenue (Hydra Towers) • Studio (556 sf)",
+          "pricePerSqFt": 1349
+        },
+        {
+          "date": "2026-10-08",
+          "amount": 818000,
+          "unit": "Hydra Avenue (Hydra Towers) • Studio (556 sf)",
+          "pricePerSqFt": 1471
+        },
+        {
+          "date": "2026-09-10",
+          "amount": 800000,
+          "unit": "Hydra Avenue (Hydra Towers) • Studio (515 sf)",
+          "pricePerSqFt": 1553
+        },
+        {
+          "date": "2026-08-24",
+          "amount": 625000,
+          "unit": "Hydra Avenue (Hydra Towers) • Studio (556 sf)",
+          "pricePerSqFt": 1124
+        },
+        {
+          "date": "2026-07-22",
+          "amount": 800000,
+          "unit": "Sigma Towers (City of Lights) • Studio (415 sf)",
+          "pricePerSqFt": 1928
+        }
+      ]
+    },
+    {
+      "id": "adrec-water-s-edge-2br-1",
+      "name": "Water's Edge",
+      "projectName": "Water's Edge",
+      "buildingName": "Water's Edge - Precinct B (2 beds)",
+      "island": "Yas Island",
+      "location": "Yas Island",
+      "developer": "Aldar",
+      "unitType": "Apartment",
+      "bedrooms": "2BR",
+      "areaSqFt": 1085,
+      "areaSqm": 100.83,
+      "transactionAmountAED": 2081030,
+      "askingAED": 2175000,
+      "actualSaleAmountAED": 2175000,
+      "serviceChargeSqFt": 15.2,
+      "completionStatus": "Ready",
+      "propertyClass": "Ready",
+      "coordinates": {
+        "lat": 24.48187,
+        "lng": 54.61837
+      },
+      "transactionDate": "2026-10-20",
+      "portalSource": "ADREC Official Registry (2026-10-20)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 2032
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 2081
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 2088
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-20",
+          "amount": 2175000,
+          "unit": "Water's Edge - Precinct B • 2BR (1,085 sf)",
+          "pricePerSqFt": 2005
+        },
+        {
+          "date": "2026-10-19",
+          "amount": 2100000,
+          "unit": "Water's Edge - Precinct A • 2BR (1,073 sf)",
+          "pricePerSqFt": 1957
+        },
+        {
+          "date": "2026-10-16",
+          "amount": 1870000,
+          "unit": "Water's Edge - Precinct B • 2BR (1,080 sf)",
+          "pricePerSqFt": 1731
+        },
+        {
+          "date": "2026-10-08",
+          "amount": 2150000,
+          "unit": "Water's Edge - Precinct B • 2BR (1,178 sf)",
+          "pricePerSqFt": 1825
+        },
+        {
+          "date": "2026-09-01",
+          "amount": 2150000,
+          "unit": "Water's Edge - Precinct B • 2BR (1,079 sf)",
+          "pricePerSqFt": 1993
+        },
+        {
+          "date": "2026-08-06",
+          "amount": 2100000,
+          "unit": "Water's Edge - Precinct B • 2BR (1,080 sf)",
+          "pricePerSqFt": 1944
+        }
+      ]
+    },
+    {
+      "id": "adrec-water-s-edge-1br-1",
+      "name": "Water's Edge",
+      "projectName": "Water's Edge",
+      "buildingName": "Water's Edge - Precinct B (1 bed)",
+      "island": "Yas Island",
+      "location": "Yas Island",
+      "developer": "Aldar",
+      "unitType": "Apartment",
+      "bedrooms": "1BR",
+      "areaSqFt": 701,
+      "areaSqm": 65.15,
+      "transactionAmountAED": 1477007,
+      "askingAED": 1430000,
+      "actualSaleAmountAED": 1430000,
+      "serviceChargeSqFt": 15.2,
+      "completionStatus": "Ready",
+      "propertyClass": "Ready",
+      "coordinates": {
+        "lat": 24.48187,
+        "lng": 54.61837
+      },
+      "transactionDate": "2026-10-19",
+      "portalSource": "ADREC Official Registry (2026-10-19)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 2032
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 2081
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 2088
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-19",
+          "amount": 1430000,
+          "unit": "Water's Edge - Precinct B • 1BR (701 sf)",
+          "pricePerSqFt": 2040
+        },
+        {
+          "date": "2026-09-17",
+          "amount": 1450000,
+          "unit": "Water's Edge - Precinct B • 1BR (701 sf)",
+          "pricePerSqFt": 2068
+        },
+        {
+          "date": "2026-09-04",
+          "amount": 1570000,
+          "unit": "Water's Edge - Precinct B • 1BR (689 sf)",
+          "pricePerSqFt": 2279
+        },
+        {
+          "date": "2026-09-03",
+          "amount": 1500000,
+          "unit": "Water's Edge - Precinct A • 1BR (693 sf)",
+          "pricePerSqFt": 2165
+        },
+        {
+          "date": "2026-09-03",
+          "amount": 1450000,
+          "unit": "Water's Edge - Precinct A • 1BR (696 sf)",
+          "pricePerSqFt": 2083
+        },
+        {
+          "date": "2026-09-01",
+          "amount": 1500000,
+          "unit": "Water's Edge - Precinct A • 1BR (700 sf)",
+          "pricePerSqFt": 2143
+        }
+      ]
+    },
+    {
+      "id": "adrec-ansam-3br-1",
+      "name": "Ansam",
+      "projectName": "Ansam",
+      "buildingName": "Ansam - Phase 2 - The Golf Collection (3 beds)",
+      "island": "Yas Island",
+      "location": "Yas Island",
+      "developer": "Aldar",
+      "unitType": "Apartment",
+      "bedrooms": "3BR",
+      "areaSqFt": 3001,
+      "areaSqm": 278.77,
+      "transactionAmountAED": 5728909,
+      "askingAED": 4598817,
+      "actualSaleAmountAED": 4598817,
+      "serviceChargeSqFt": 17.4,
+      "completionStatus": "Ready",
+      "propertyClass": "Ready",
+      "coordinates": {
+        "lat": 24.48355,
+        "lng": 54.6004
+      },
+      "transactionDate": "2026-10-29",
+      "portalSource": "ADREC Official Registry (2026-10-29)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1818
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1858
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1839
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-29",
+          "amount": 4598817,
+          "unit": "Ansam - Phase 2 - The Golf Collection • 3BR (3,001 sf)",
+          "pricePerSqFt": 1532
+        },
+        {
+          "date": "2026-10-19",
+          "amount": 3650000,
+          "unit": "Ansam - Phase 1 • 3BR (2,447 sf)",
+          "pricePerSqFt": 1492
+        },
+        {
+          "date": "2026-10-15",
+          "amount": 5074448,
+          "unit": "Ansam - Phase 2 - The Golf Collection • 3BR (2,359 sf)",
+          "pricePerSqFt": 2151
+        },
+        {
+          "date": "2026-10-02",
+          "amount": 5250000,
+          "unit": "Ansam - Phase 1 • 3BR (2,485 sf)",
+          "pricePerSqFt": 2113
+        },
+        {
+          "date": "2026-10-01",
+          "amount": 3993798,
+          "unit": "Ansam - Phase 2 - The Golf Collection • 3BR (2,212 sf)",
+          "pricePerSqFt": 1806
+        },
+        {
+          "date": "2026-09-01",
+          "amount": 4609999,
+          "unit": "Ansam - Phase 2 - The Golf Collection • 3BR (3,013 sf)",
+          "pricePerSqFt": 1530
+        }
+      ]
+    },
+    {
+      "id": "adrec-ansam-1br-1",
+      "name": "Ansam",
+      "projectName": "Ansam",
+      "buildingName": "Ansam - Phase 2 - The Golf Collection (1 bed)",
+      "island": "Yas Island",
+      "location": "Yas Island",
+      "developer": "Aldar",
+      "unitType": "Apartment",
+      "bedrooms": "1BR",
+      "areaSqFt": 852,
+      "areaSqm": 79.11,
+      "transactionAmountAED": 1503780,
+      "askingAED": 2100000,
+      "actualSaleAmountAED": 2100000,
+      "serviceChargeSqFt": 17.4,
+      "completionStatus": "Ready",
+      "propertyClass": "Ready",
+      "coordinates": {
+        "lat": 24.48355,
+        "lng": 54.6004
+      },
+      "transactionDate": "2026-10-29",
+      "portalSource": "ADREC Official Registry (2026-10-29)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1818
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1858
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1839
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-29",
+          "amount": 2100000,
+          "unit": "Ansam - Phase 2 - The Golf Collection • 1BR (852 sf)",
+          "pricePerSqFt": 2465
+        },
+        {
+          "date": "2026-10-29",
+          "amount": 1420000,
+          "unit": "Ansam - Phase 2 - The Golf Collection • 1BR (864 sf)",
+          "pricePerSqFt": 1644
+        },
+        {
+          "date": "2026-10-28",
+          "amount": 1393912,
+          "unit": "Ansam - Phase 2 - The Golf Collection • 1BR (863 sf)",
+          "pricePerSqFt": 1615
+        },
+        {
+          "date": "2026-10-28",
+          "amount": 1401812,
+          "unit": "Ansam - Phase 2 - The Golf Collection • 1BR (865 sf)",
+          "pricePerSqFt": 1621
+        },
+        {
+          "date": "2026-10-26",
+          "amount": 1491688,
+          "unit": "Ansam - Phase 2 - The Golf Collection • 1BR (896 sf)",
+          "pricePerSqFt": 1665
+        },
+        {
+          "date": "2026-10-22",
+          "amount": 1422216,
+          "unit": "Ansam - Phase 2 - The Golf Collection • 1BR (882 sf)",
+          "pricePerSqFt": 1612
+        }
+      ]
+    },
+    {
+      "id": "adrec-yas-acres-3br-1",
+      "name": "Yas Acres",
+      "projectName": "Yas Acres",
+      "buildingName": "Yas Acres - The Orchids (3 beds)",
+      "island": "Yas Island",
+      "location": "Yas Island",
+      "developer": "Aldar",
+      "unitType": "Townhouse",
+      "bedrooms": "3BR",
+      "areaSqFt": 1719,
+      "areaSqm": 159.66,
+      "transactionAmountAED": 3620214,
+      "askingAED": 4265397,
+      "actualSaleAmountAED": 4265397,
+      "serviceChargeSqFt": 11.5,
+      "completionStatus": "Off-plan",
+      "propertyClass": "Off-plan",
+      "coordinates": {
+        "lat": 24.50479,
+        "lng": 54.60068
+      },
+      "transactionDate": "2026-10-26",
+      "portalSource": "ADREC Official Registry (2026-10-26)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1076
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 2214
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1806
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-26",
+          "amount": 4265397,
+          "unit": "Yas Acres - The Orchids • 3BR (1,719 sf)",
+          "pricePerSqFt": 2481
+        },
+        {
+          "date": "2026-09-24",
+          "amount": 7000000,
+          "unit": "Yas Acres - The Dahlias • 3BR (3,641 sf)",
+          "pricePerSqFt": 1923
+        },
+        {
+          "date": "2026-09-02",
+          "amount": 5500000,
+          "unit": "Yas Acres - The Redwoods • 3BR (3,394 sf)",
+          "pricePerSqFt": 1621
+        },
+        {
+          "date": "2026-09-01",
+          "amount": 6600000,
+          "unit": "Yas Acres - The Magnolias • 3BR (3,373 sf)",
+          "pricePerSqFt": 1957
+        },
+        {
+          "date": "2026-08-18",
+          "amount": 6100000,
+          "unit": "Yas Acres - The Magnolias • 3BR (2,981 sf)",
+          "pricePerSqFt": 2046
+        },
+        {
+          "date": "2026-07-29",
+          "amount": 6400000,
+          "unit": "Yas Acres - The Magnolias • 3BR (3,373 sf)",
+          "pricePerSqFt": 1897
+        }
+      ]
+    },
+    {
+      "id": "adrec-yas-acres-2br-1",
+      "name": "Yas Acres",
+      "projectName": "Yas Acres",
+      "buildingName": "Yas Acres - The Dahlias 2 (2 beds)",
+      "island": "Yas Island",
+      "location": "Yas Island",
+      "developer": "Aldar",
+      "unitType": "Townhouse",
+      "bedrooms": "2BR",
+      "areaSqFt": 2308,
+      "areaSqm": 214.44,
+      "transactionAmountAED": 3937448,
+      "askingAED": 2946879,
+      "actualSaleAmountAED": 2946879,
+      "serviceChargeSqFt": 11.5,
+      "completionStatus": "Ready",
+      "propertyClass": "Ready",
+      "coordinates": {
+        "lat": 24.50479,
+        "lng": 54.60068
+      },
+      "transactionDate": "2026-10-19",
+      "portalSource": "ADREC Official Registry (2026-10-19)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1076
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 2214
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1806
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-19",
+          "amount": 2946879,
+          "unit": "Yas Acres - The Dahlias 2 • 2BR (2,308 sf)",
+          "pricePerSqFt": 1277
+        },
+        {
+          "date": "2026-10-09",
+          "amount": 2942957,
+          "unit": "Yas Acres - The Dahlias 2 • 2BR (2,293 sf)",
+          "pricePerSqFt": 1283
+        },
+        {
+          "date": "2026-10-06",
+          "amount": 4000000,
+          "unit": "Yas Acres - The Cedars • 2BR (2,331 sf)",
+          "pricePerSqFt": 1716
+        },
+        {
+          "date": "2026-09-24",
+          "amount": 4200000,
+          "unit": "Yas Acres - The Magnolias • 2BR (2,234 sf)",
+          "pricePerSqFt": 1880
+        },
+        {
+          "date": "2026-09-01",
+          "amount": 4500000,
+          "unit": "Yas Acres - The Dahlias 2 • 2BR (2,308 sf)",
+          "pricePerSqFt": 1950
+        },
+        {
+          "date": "2026-08-13",
+          "amount": 4350000,
+          "unit": "Yas Acres - The Dahlias • 2BR (2,166 sf)",
+          "pricePerSqFt": 2008
+        }
+      ]
+    },
+    {
+      "id": "adrec-mayan-2br-1",
+      "name": "Mayan",
+      "projectName": "Mayan",
+      "buildingName": "Mayan (2 beds)",
+      "island": "Yas Island",
+      "location": "Yas Island",
+      "developer": "Aldar",
+      "unitType": "Apartment",
+      "bedrooms": "2BR",
+      "areaSqFt": 1801,
+      "areaSqm": 167.35,
+      "transactionAmountAED": 3922578,
+      "askingAED": 3600000,
+      "actualSaleAmountAED": 3600000,
+      "serviceChargeSqFt": 19.5,
+      "completionStatus": "Ready",
+      "propertyClass": "Ready",
+      "coordinates": {
+        "lat": 24.46485,
+        "lng": 54.5968
+      },
+      "transactionDate": "2026-05-21",
+      "portalSource": "ADREC Official Registry (2026-05-21)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 2645
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 2277
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 2434
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-05-21",
+          "amount": 3600000,
+          "unit": "Mayan • 2BR (1,801 sf)",
+          "pricePerSqFt": 1999
+        },
+        {
+          "date": "2026-05-11",
+          "amount": 3250000,
+          "unit": "Mayan • 2BR (1,402 sf)",
+          "pricePerSqFt": 2318
+        },
+        {
+          "date": "2026-04-01",
+          "amount": 2678093,
+          "unit": "Mayan • 2BR (1,479 sf)",
+          "pricePerSqFt": 1811
+        },
+        {
+          "date": "2026-03-11",
+          "amount": 4100000,
+          "unit": "Mayan • 2BR (1,413 sf)",
+          "pricePerSqFt": 2902
+        },
+        {
+          "date": "2026-02-25",
+          "amount": 3800000,
+          "unit": "Mayan • 2BR (1,419 sf)",
+          "pricePerSqFt": 2678
+        },
+        {
+          "date": "2026-01-13",
+          "amount": 3770000,
+          "unit": "Mayan • 2BR (1,527 sf)",
+          "pricePerSqFt": 2469
+        }
+      ]
+    },
+    {
+      "id": "adrec-mayan-3br-1",
+      "name": "Mayan",
+      "projectName": "Mayan",
+      "buildingName": "Mayan (3 beds)",
+      "island": "Yas Island",
+      "location": "Yas Island",
+      "developer": "Aldar",
+      "unitType": "Apartment",
+      "bedrooms": "3BR",
+      "areaSqFt": 2416,
+      "areaSqm": 224.41,
+      "transactionAmountAED": 4730528,
+      "askingAED": 7200000,
+      "actualSaleAmountAED": 7200000,
+      "serviceChargeSqFt": 19.5,
+      "completionStatus": "Ready",
+      "propertyClass": "Ready",
+      "coordinates": {
+        "lat": 24.46485,
+        "lng": 54.5968
+      },
+      "transactionDate": "2026-04-09",
+      "portalSource": "ADREC Official Registry (2026-04-09)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 2645
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 2277
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 2434
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-04-09",
+          "amount": 7200000,
+          "unit": "Mayan • 3BR (2,416 sf)",
+          "pricePerSqFt": 2980
+        },
+        {
+          "date": "2026-02-04",
+          "amount": 5700000,
+          "unit": "Mayan • 3BR (2,321 sf)",
+          "pricePerSqFt": 2456
+        },
+        {
+          "date": "2026-01-27",
+          "amount": 6850000,
+          "unit": "Mayan • 3BR (2,981 sf)",
+          "pricePerSqFt": 2298
+        },
+        {
+          "date": "2025-12-16",
+          "amount": 6300000,
+          "unit": "Mayan • 3BR (2,416 sf)",
+          "pricePerSqFt": 2608
+        },
+        {
+          "date": "2025-11-19",
+          "amount": 5400000,
+          "unit": "Mayan • 3BR (2,146 sf)",
+          "pricePerSqFt": 2516
+        },
+        {
+          "date": "2025-08-13",
+          "amount": 5700000,
+          "unit": "Mayan • 3BR (2,150 sf)",
+          "pricePerSqFt": 2651
+        }
+      ]
+    },
+    {
+      "id": "adrec-noya-viva-luma--3br-1",
+      "name": "Noya (Viva & Luma)",
+      "projectName": "Noya (Viva & Luma)",
+      "buildingName": "Noya - Phase 5 - Yas Park Views (5 beds)",
+      "island": "Yas Island",
+      "location": "Yas Island",
+      "developer": "Aldar",
+      "unitType": "Townhouse",
+      "bedrooms": "3BR",
+      "areaSqFt": 3187,
+      "areaSqm": 296.05,
+      "transactionAmountAED": 5819462,
+      "askingAED": 5700000,
+      "actualSaleAmountAED": 5700000,
+      "serviceChargeSqFt": 11.8,
+      "completionStatus": "Off-plan",
+      "propertyClass": "Off-plan",
+      "coordinates": {
+        "lat": 24.49698,
+        "lng": 54.6247
+      },
+      "transactionDate": "2026-10-28",
+      "portalSource": "ADREC Official Registry (2026-10-28)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1812
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1852
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1772
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-28",
+          "amount": 5700000,
+          "unit": "Noya - Phase 5 - Yas Park Views • 3BR (3,187 sf)",
+          "pricePerSqFt": 1789
+        },
+        {
+          "date": "2026-10-27",
+          "amount": 3600000,
+          "unit": "Noya - Phase 1 • 3BR (1,830 sf)",
+          "pricePerSqFt": 1967
+        },
+        {
+          "date": "2026-10-26",
+          "amount": 6200000,
+          "unit": "Noya - Phase 3 - Luma • 3BR (2,443 sf)",
+          "pricePerSqFt": 2538
+        },
+        {
+          "date": "2026-10-22",
+          "amount": 3507205,
+          "unit": "Noya - Phase 4 - Yas Park Gate • 3BR (2,506 sf)",
+          "pricePerSqFt": 1400
+        },
+        {
+          "date": "2026-10-22",
+          "amount": 3450165,
+          "unit": "Noya - Phase 4 - Yas Park Gate • 3BR (2,506 sf)",
+          "pricePerSqFt": 1377
+        },
+        {
+          "date": "2026-10-20",
+          "amount": 5400000,
+          "unit": "Noya - Phase 5 - Yas Park Views • 3BR (3,187 sf)",
+          "pricePerSqFt": 1694
+        }
+      ]
+    },
+    {
+      "id": "adrec-noya-viva-luma--2br-1",
+      "name": "Noya (Viva & Luma)",
+      "projectName": "Noya (Viva & Luma)",
+      "buildingName": "Noya - Phase 4 - Yas Park Gate (2 beds)",
+      "island": "Yas Island",
+      "location": "Yas Island",
+      "developer": "Aldar",
+      "unitType": "Townhouse",
+      "bedrooms": "2BR",
+      "areaSqFt": 1334,
+      "areaSqm": 123.92,
+      "transactionAmountAED": 2705352,
+      "askingAED": 2700000,
+      "actualSaleAmountAED": 2700000,
+      "serviceChargeSqFt": 11.8,
+      "completionStatus": "Off-plan",
+      "propertyClass": "Off-plan",
+      "coordinates": {
+        "lat": 24.49698,
+        "lng": 54.6247
+      },
+      "transactionDate": "2026-10-27",
+      "portalSource": "ADREC Official Registry (2026-10-27)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1812
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1852
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1772
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-27",
+          "amount": 2700000,
+          "unit": "Noya - Phase 4 - Yas Park Gate • 2BR (1,334 sf)",
+          "pricePerSqFt": 2024
+        },
+        {
+          "date": "2026-10-15",
+          "amount": 2950000,
+          "unit": "Noya - Phase 1 • 2BR (1,349 sf)",
+          "pricePerSqFt": 2187
+        },
+        {
+          "date": "2026-10-12",
+          "amount": 3000000,
+          "unit": "Noya - Phase 4 - Yas Park Gate • 2BR (1,334 sf)",
+          "pricePerSqFt": 2249
+        },
+        {
+          "date": "2026-10-09",
+          "amount": 2800000,
+          "unit": "Noya - Phase 4 - Yas Park Gate • 2BR (1,334 sf)",
+          "pricePerSqFt": 2099
+        },
+        {
+          "date": "2026-10-09",
+          "amount": 2350000,
+          "unit": "Noya - Phase 4 - Yas Park Gate • 2BR (1,334 sf)",
+          "pricePerSqFt": 1762
+        },
+        {
+          "date": "2026-10-09",
+          "amount": 2400000,
+          "unit": "Noya - Phase 4 - Yas Park Gate • 2BR (1,334 sf)",
+          "pricePerSqFt": 1799
+        }
+      ]
+    },
+    {
+      "id": "adrec-gardenia-bay-1br-1",
+      "name": "Gardenia Bay",
+      "projectName": "Gardenia Bay",
+      "buildingName": "Gardenia Bay (1 bed)",
+      "island": "Yas Island",
+      "location": "Yas Island",
+      "developer": "Aldar",
+      "unitType": "Apartment",
+      "bedrooms": "1BR",
+      "areaSqFt": 812,
+      "areaSqm": 75.44,
+      "transactionAmountAED": 1494080,
+      "askingAED": 1440575,
+      "actualSaleAmountAED": 1440575,
+      "serviceChargeSqFt": 16,
+      "completionStatus": "Off-plan",
+      "propertyClass": "Off-plan",
+      "coordinates": {
+        "lat": 24.4872,
+        "lng": 54.6145
+      },
+      "transactionDate": "2026-10-30",
+      "portalSource": "ADREC Official Registry (2026-10-30)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1964
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1985
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1978
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-30",
+          "amount": 1440575,
+          "unit": "Gardenia Bay • 1BR (812 sf)",
+          "pricePerSqFt": 1774
+        },
+        {
+          "date": "2026-10-28",
+          "amount": 1670000,
+          "unit": "Gardenia Bay • 1BR (806 sf)",
+          "pricePerSqFt": 2072
+        },
+        {
+          "date": "2026-10-22",
+          "amount": 1575000,
+          "unit": "Gardenia Bay • 1BR (805 sf)",
+          "pricePerSqFt": 1957
+        },
+        {
+          "date": "2026-10-22",
+          "amount": 1410000,
+          "unit": "Gardenia Bay • 1BR (849 sf)",
+          "pricePerSqFt": 1661
+        },
+        {
+          "date": "2026-10-15",
+          "amount": 1500000,
+          "unit": "Gardenia Bay • 1BR (809 sf)",
+          "pricePerSqFt": 1854
+        },
+        {
+          "date": "2026-10-08",
+          "amount": 1500000,
+          "unit": "Gardenia Bay • 1BR (849 sf)",
+          "pricePerSqFt": 1767
+        }
+      ]
+    },
+    {
+      "id": "adrec-gardenia-bay-2br-1",
+      "name": "Gardenia Bay",
+      "projectName": "Gardenia Bay",
+      "buildingName": "Gardenia Bay (2 beds)",
+      "island": "Yas Island",
+      "location": "Yas Island",
+      "developer": "Aldar",
+      "unitType": "Apartment",
+      "bedrooms": "2BR",
+      "areaSqFt": 1163,
+      "areaSqm": 108.08,
+      "transactionAmountAED": 2235286,
+      "askingAED": 2504000,
+      "actualSaleAmountAED": 2504000,
+      "serviceChargeSqFt": 16,
+      "completionStatus": "Off-plan",
+      "propertyClass": "Off-plan",
+      "coordinates": {
+        "lat": 24.4872,
+        "lng": 54.6145
+      },
+      "transactionDate": "2026-10-28",
+      "portalSource": "ADREC Official Registry (2026-10-28)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1964
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1985
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1978
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-28",
+          "amount": 2504000,
+          "unit": "Gardenia Bay • 2BR (1,163 sf)",
+          "pricePerSqFt": 2153
+        },
+        {
+          "date": "2026-10-26",
+          "amount": 2539806,
+          "unit": "Gardenia Bay • 2BR (1,173 sf)",
+          "pricePerSqFt": 2165
+        },
+        {
+          "date": "2026-10-26",
+          "amount": 2014023,
+          "unit": "Gardenia Bay • 2BR (1,208 sf)",
+          "pricePerSqFt": 1667
+        },
+        {
+          "date": "2026-10-21",
+          "amount": 2227325,
+          "unit": "Gardenia Bay • 2BR (1,293 sf)",
+          "pricePerSqFt": 1723
+        },
+        {
+          "date": "2026-10-08",
+          "amount": 2255000,
+          "unit": "Gardenia Bay • 2BR (1,296 sf)",
+          "pricePerSqFt": 1740
+        },
+        {
+          "date": "2026-08-26",
+          "amount": 2330818,
+          "unit": "Gardenia Bay • 2BR (1,293 sf)",
+          "pricePerSqFt": 1803
+        }
+      ]
+    },
+    {
+      "id": "adrec-yas-bay-sea-la-vie-perla--1br-1",
+      "name": "Yas Bay (Sea La Vie & Perla)",
+      "projectName": "Yas Bay (Sea La Vie & Perla)",
+      "buildingName": "Bab Al Qasr Garden Residence 65 (1 bed)",
+      "island": "Yas Island",
+      "location": "Yas Island",
+      "developer": "Nine Yards",
+      "unitType": "Apartment",
+      "bedrooms": "1BR",
+      "areaSqFt": 984,
+      "areaSqm": 91.45,
+      "transactionAmountAED": 1582272,
+      "askingAED": 1353200,
+      "actualSaleAmountAED": 1353200,
+      "serviceChargeSqFt": 18.5,
+      "completionStatus": "Off-plan",
+      "propertyClass": "Off-plan",
+      "coordinates": {
+        "lat": 24.45894,
+        "lng": 54.60001
+      },
+      "transactionDate": "2026-10-29",
+      "portalSource": "ADREC Official Registry (2026-10-29)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1529
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1591
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1690
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-29",
+          "amount": 1353200,
+          "unit": "Bab Al Qasr Garden Residence 65 • 1BR (984 sf)",
+          "pricePerSqFt": 1375
+        },
+        {
+          "date": "2026-10-29",
+          "amount": 1237600,
+          "unit": "Bab Al Qasr Garden Residence 65 • 1BR (887 sf)",
+          "pricePerSqFt": 1395
+        },
+        {
+          "date": "2026-10-29",
+          "amount": 1244400,
+          "unit": "Bab Al Qasr Garden Residence 65 • 1BR (833 sf)",
+          "pricePerSqFt": 1494
+        },
+        {
+          "date": "2026-10-22",
+          "amount": 1480000,
+          "unit": "Bab Al Qasr Residence 19 • 1BR (1,241 sf)",
+          "pricePerSqFt": 1193
+        },
+        {
+          "date": "2026-10-19",
+          "amount": 1349400,
+          "unit": "Bab Al Qasr Residence 18 • 1BR (1,044 sf)",
+          "pricePerSqFt": 1293
+        },
+        {
+          "date": "2026-10-19",
+          "amount": 1532652,
+          "unit": "Bab Al Qasr Residence 25 • 1BR (972 sf)",
+          "pricePerSqFt": 1577
+        }
+      ]
+    },
+    {
+      "id": "adrec-yas-bay-sea-la-vie-perla--2br-1",
+      "name": "Yas Bay (Sea La Vie & Perla)",
+      "projectName": "Yas Bay (Sea La Vie & Perla)",
+      "buildingName": "Bab Al Qasr Garden Residence 65 (2 beds)",
+      "island": "Yas Island",
+      "location": "Yas Island",
+      "developer": "Nine Yards",
+      "unitType": "Apartment",
+      "bedrooms": "2BR",
+      "areaSqFt": 1311,
+      "areaSqm": 121.77,
+      "transactionAmountAED": 1933725,
+      "askingAED": 1742000,
+      "actualSaleAmountAED": 1742000,
+      "serviceChargeSqFt": 18.5,
+      "completionStatus": "Off-plan",
+      "propertyClass": "Off-plan",
+      "coordinates": {
+        "lat": 24.45894,
+        "lng": 54.60001
+      },
+      "transactionDate": "2026-10-29",
+      "portalSource": "ADREC Official Registry (2026-10-29)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1529
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1591
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1690
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-29",
+          "amount": 1742000,
+          "unit": "Bab Al Qasr Garden Residence 65 • 2BR (1,311 sf)",
+          "pricePerSqFt": 1329
+        },
+        {
+          "date": "2026-10-29",
+          "amount": 1778000,
+          "unit": "Bab Al Qasr Garden Residence 65 • 2BR (1,160 sf)",
+          "pricePerSqFt": 1533
+        },
+        {
+          "date": "2026-10-22",
+          "amount": 1960000,
+          "unit": "Bab Al Qasr Garden Residence 66 • 2BR (1,243 sf)",
+          "pricePerSqFt": 1577
+        },
+        {
+          "date": "2026-10-22",
+          "amount": 2456000,
+          "unit": "Bab Al Qasr Residence 19 • 2BR (1,964 sf)",
+          "pricePerSqFt": 1251
+        },
+        {
+          "date": "2026-10-22",
+          "amount": 2176000,
+          "unit": "Bab Al Qasr Residence 31 • 2BR (1,422 sf)",
+          "pricePerSqFt": 1530
+        },
+        {
+          "date": "2026-10-22",
+          "amount": 1985501,
+          "unit": "Bab Al Qasr Residence 25 • 2BR (1,351 sf)",
+          "pricePerSqFt": 1470
+        }
+      ]
+    },
+    {
+      "id": "adrec-the-sustainable-city-yas-1br-1",
+      "name": "The Sustainable City Yas",
+      "projectName": "The Sustainable City Yas",
+      "buildingName": "The Sustainable City - Yas Island - Phase 1 (1 bed)",
+      "island": "Yas Island",
+      "location": "Yas Island",
+      "developer": "Aldar",
+      "unitType": "Apartment",
+      "bedrooms": "1BR",
+      "areaSqFt": 751,
+      "areaSqm": 69.77,
+      "transactionAmountAED": 1462197,
+      "askingAED": 1355000,
+      "actualSaleAmountAED": 1355000,
+      "serviceChargeSqFt": 10.5,
+      "completionStatus": "Off-plan",
+      "propertyClass": "Off-plan",
+      "coordinates": {
+        "lat": 24.5015,
+        "lng": 54.6182
+      },
+      "transactionDate": "2026-10-28",
+      "portalSource": "ADREC Official Registry (2026-10-28)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1479
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1610
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1459
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-28",
+          "amount": 1355000,
+          "unit": "The Sustainable City - Yas Island - Phase 1 • 1BR (751 sf)",
+          "pricePerSqFt": 1804
+        },
+        {
+          "date": "2026-10-19",
+          "amount": 1400000,
+          "unit": "The Sustainable City - Yas Island - Phase 1 • 1BR (723 sf)",
+          "pricePerSqFt": 1936
+        },
+        {
+          "date": "2026-10-08",
+          "amount": 1500000,
+          "unit": "The Sustainable City - Yas Island - Phase 1 • 1BR (746 sf)",
+          "pricePerSqFt": 2011
+        },
+        {
+          "date": "2026-10-08",
+          "amount": 1480000,
+          "unit": "The Sustainable City - Yas Island - Phase 1 • 1BR (723 sf)",
+          "pricePerSqFt": 2047
+        },
+        {
+          "date": "2026-09-02",
+          "amount": 1650000,
+          "unit": "The Sustainable City - Yas Island - Phase 1 • 1BR (712 sf)",
+          "pricePerSqFt": 2317
+        },
+        {
+          "date": "2026-08-13",
+          "amount": 1400000,
+          "unit": "The Sustainable City - Yas Island - Phase 1 • 1BR (721 sf)",
+          "pricePerSqFt": 1942
+        }
+      ]
+    },
+    {
+      "id": "adrec-the-sustainable-city-yas-3br-1",
+      "name": "The Sustainable City Yas",
+      "projectName": "The Sustainable City Yas",
+      "buildingName": "The Sustainable City - Yas Island - Phase 1 (4 beds)",
+      "island": "Yas Island",
+      "location": "Yas Island",
+      "developer": "Aldar",
+      "unitType": "Townhouse",
+      "bedrooms": "3BR",
+      "areaSqFt": 3312,
+      "areaSqm": 307.68,
+      "transactionAmountAED": 4517568,
+      "askingAED": 4800000,
+      "actualSaleAmountAED": 4800000,
+      "serviceChargeSqFt": 10.5,
+      "completionStatus": "Off-plan",
+      "propertyClass": "Off-plan",
+      "coordinates": {
+        "lat": 24.5015,
+        "lng": 54.6182
+      },
+      "transactionDate": "2026-10-28",
+      "portalSource": "ADREC Official Registry (2026-10-28)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1479
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1610
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1459
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-28",
+          "amount": 4800000,
+          "unit": "The Sustainable City - Yas Island - Phase 1 • 3BR (3,312 sf)",
+          "pricePerSqFt": 1449
+        },
+        {
+          "date": "2026-10-22",
+          "amount": 3295168,
+          "unit": "The Sustainable City - Yas Island - Phase 1 • 3BR (2,910 sf)",
+          "pricePerSqFt": 1132
+        },
+        {
+          "date": "2026-10-22",
+          "amount": 4300000,
+          "unit": "The Sustainable City - Yas Island - Phase 1 • 3BR (2,938 sf)",
+          "pricePerSqFt": 1464
+        },
+        {
+          "date": "2026-10-19",
+          "amount": 4000000,
+          "unit": "The Sustainable City - Yas Island - Phase 1 • 3BR (2,909 sf)",
+          "pricePerSqFt": 1375
+        },
+        {
+          "date": "2026-10-19",
+          "amount": 4500000,
+          "unit": "The Sustainable City - Yas Island - Phase 1 • 3BR (3,328 sf)",
+          "pricePerSqFt": 1352
+        },
+        {
+          "date": "2026-10-13",
+          "amount": 1846839,
+          "unit": "The Sustainable City - Yas Island - Phase 1 • 3BR (1,555 sf)",
+          "pricePerSqFt": 1188
+        }
+      ]
+    },
+    {
+      "id": "adrec-mamsha-al-saadiyat-3br-1",
+      "name": "Mamsha Al Saadiyat",
+      "projectName": "Mamsha Al Saadiyat",
+      "buildingName": "Mamsha Gardens B (3 beds)",
+      "island": "Saadiyat Island",
+      "location": "Saadiyat Island",
+      "developer": "Aldar",
+      "unitType": "Apartment",
+      "bedrooms": "3BR",
+      "areaSqFt": 2820,
+      "areaSqm": 261.98,
+      "transactionAmountAED": 9706440,
+      "askingAED": 11718020,
+      "actualSaleAmountAED": 11718020,
+      "serviceChargeSqFt": 24.5,
+      "completionStatus": "Off-plan",
+      "propertyClass": "Off-plan",
+      "coordinates": {
+        "lat": 24.53865,
+        "lng": 54.40775
+      },
+      "transactionDate": "2026-10-30",
+      "portalSource": "ADREC Official Registry (2026-10-30)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 3626
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 3911
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 3469
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-30",
+          "amount": 11718020,
+          "unit": "Mamsha Gardens B • 3BR (2,820 sf)",
+          "pricePerSqFt": 4155
+        },
+        {
+          "date": "2026-10-19",
+          "amount": 10470000,
+          "unit": "Mamsha Al Saadiyat - Turquoise • 3BR (3,285 sf)",
+          "pricePerSqFt": 3187
+        },
+        {
+          "date": "2026-08-24",
+          "amount": 8706500,
+          "unit": "Mamsha Gardens B • 3BR (2,705 sf)",
+          "pricePerSqFt": 3219
+        },
+        {
+          "date": "2026-08-24",
+          "amount": 10672600,
+          "unit": "Mamsha Gardens B • 3BR (2,909 sf)",
+          "pricePerSqFt": 3669
+        },
+        {
+          "date": "2026-08-24",
+          "amount": 9523800,
+          "unit": "Mamsha Gardens B • 3BR (2,642 sf)",
+          "pricePerSqFt": 3605
+        },
+        {
+          "date": "2026-08-24",
+          "amount": 10217600,
+          "unit": "Mamsha Gardens B • 3BR (2,841 sf)",
+          "pricePerSqFt": 3596
+        }
+      ]
+    },
+    {
+      "id": "adrec-mamsha-al-saadiyat-1br-1",
+      "name": "Mamsha Al Saadiyat",
+      "projectName": "Mamsha Al Saadiyat",
+      "buildingName": "Mamsha Gardens B (1 bed)",
+      "island": "Saadiyat Island",
+      "location": "Saadiyat Island",
+      "developer": "Aldar",
+      "unitType": "Apartment",
+      "bedrooms": "1BR",
+      "areaSqFt": 957,
+      "areaSqm": 88.95,
+      "transactionAmountAED": 3471039,
+      "askingAED": 3600000,
+      "actualSaleAmountAED": 3600000,
+      "serviceChargeSqFt": 24.5,
+      "completionStatus": "Off-plan",
+      "propertyClass": "Off-plan",
+      "coordinates": {
+        "lat": 24.53865,
+        "lng": 54.40775
+      },
+      "transactionDate": "2026-10-08",
+      "portalSource": "ADREC Official Registry (2026-10-08)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 3626
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 3911
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 3469
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-08",
+          "amount": 3600000,
+          "unit": "Mamsha Gardens B • 1BR (957 sf)",
+          "pricePerSqFt": 3762
+        },
+        {
+          "date": "2026-08-24",
+          "amount": 4077774,
+          "unit": "Mamsha Gardens B • 1BR (1,142 sf)",
+          "pricePerSqFt": 3571
+        },
+        {
+          "date": "2026-08-24",
+          "amount": 3966169,
+          "unit": "Mamsha Gardens B • 1BR (1,093 sf)",
+          "pricePerSqFt": 3629
+        },
+        {
+          "date": "2026-08-24",
+          "amount": 4206448,
+          "unit": "Mamsha Gardens B • 1BR (1,142 sf)",
+          "pricePerSqFt": 3683
+        },
+        {
+          "date": "2026-08-20",
+          "amount": 3605902,
+          "unit": "Mamsha Gardens B • 1BR (1,142 sf)",
+          "pricePerSqFt": 3158
+        },
+        {
+          "date": "2026-08-20",
+          "amount": 4052120,
+          "unit": "Mamsha Gardens B • 1BR (1,094 sf)",
+          "pricePerSqFt": 3704
+        }
+      ]
+    },
+    {
+      "id": "adrec-saadiyat-beach-residences-2br-1",
+      "name": "Saadiyat Beach Residences",
+      "projectName": "Saadiyat Beach Residences",
+      "buildingName": "Saadiyat Beach Residences - Block 3 (2 beds)",
+      "island": "Saadiyat Island",
+      "location": "Saadiyat Island",
+      "developer": "Aldar",
+      "unitType": "Apartment",
+      "bedrooms": "2BR",
+      "areaSqFt": 1485,
+      "areaSqm": 138,
+      "transactionAmountAED": 2582415,
+      "askingAED": 2548000,
+      "actualSaleAmountAED": 2548000,
+      "serviceChargeSqFt": 19.2,
+      "completionStatus": "Ready",
+      "propertyClass": "Ready",
+      "coordinates": {
+        "lat": 24.55109,
+        "lng": 54.45244
+      },
+      "transactionDate": "2026-10-29",
+      "portalSource": "ADREC Official Registry (2026-10-29)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1635
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1668
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1777
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-29",
+          "amount": 2548000,
+          "unit": "Saadiyat Beach Residences - Block 3 • 2BR (1,485 sf)",
+          "pricePerSqFt": 1716
+        },
+        {
+          "date": "2026-10-29",
+          "amount": 2580000,
+          "unit": "Saadiyat Beach Residences - Block 3 • 2BR (1,485 sf)",
+          "pricePerSqFt": 1737
+        },
+        {
+          "date": "2026-10-20",
+          "amount": 2550000,
+          "unit": "Saadiyat Beach Residences - Block 3 • 2BR (1,485 sf)",
+          "pricePerSqFt": 1717
+        },
+        {
+          "date": "2026-10-20",
+          "amount": 2800000,
+          "unit": "Saadiyat Beach Residences - Block 2 • 2BR (1,596 sf)",
+          "pricePerSqFt": 1754
+        },
+        {
+          "date": "2026-10-08",
+          "amount": 2550000,
+          "unit": "Saadiyat Beach Residences - Block 2 • 2BR (1,485 sf)",
+          "pricePerSqFt": 1717
+        },
+        {
+          "date": "2026-10-06",
+          "amount": 2600000,
+          "unit": "Saadiyat Beach Residences - Block 2 • 2BR (1,485 sf)",
+          "pricePerSqFt": 1751
+        }
+      ]
+    },
+    {
+      "id": "adrec-saadiyat-beach-residences-1br-1",
+      "name": "Saadiyat Beach Residences",
+      "projectName": "Saadiyat Beach Residences",
+      "buildingName": "Saadiyat Beach Residences - Block 2 (1 bed)",
+      "island": "Saadiyat Island",
+      "location": "Saadiyat Island",
+      "developer": "Aldar",
+      "unitType": "Apartment",
+      "bedrooms": "1BR",
+      "areaSqFt": 665,
+      "areaSqm": 61.76,
+      "transactionAmountAED": 1210965,
+      "askingAED": 1150000,
+      "actualSaleAmountAED": 1150000,
+      "serviceChargeSqFt": 19.2,
+      "completionStatus": "Ready",
+      "propertyClass": "Ready",
+      "coordinates": {
+        "lat": 24.55109,
+        "lng": 54.45244
+      },
+      "transactionDate": "2026-10-29",
+      "portalSource": "ADREC Official Registry (2026-10-29)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1635
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1668
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1777
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-29",
+          "amount": 1150000,
+          "unit": "Saadiyat Beach Residences - Block 2 • 1BR (665 sf)",
+          "pricePerSqFt": 1729
+        },
+        {
+          "date": "2026-10-29",
+          "amount": 1600000,
+          "unit": "Saadiyat Beach Residences - Block 2 • 1BR (861 sf)",
+          "pricePerSqFt": 1858
+        },
+        {
+          "date": "2026-10-29",
+          "amount": 1550000,
+          "unit": "Saadiyat Beach Residences - Block 2 • 1BR (861 sf)",
+          "pricePerSqFt": 1800
+        },
+        {
+          "date": "2026-10-29",
+          "amount": 1200000,
+          "unit": "Saadiyat Beach Residences - Block 2 • 1BR (665 sf)",
+          "pricePerSqFt": 1805
+        },
+        {
+          "date": "2026-10-29",
+          "amount": 1540000,
+          "unit": "Saadiyat Beach Residences - Block 1 • 1BR (861 sf)",
+          "pricePerSqFt": 1789
+        },
+        {
+          "date": "2026-10-29",
+          "amount": 1250000,
+          "unit": "Saadiyat Beach Residences - Block 2 • 1BR (665 sf)",
+          "pricePerSqFt": 1880
+        }
+      ]
+    },
+    {
+      "id": "adrec-saadiyat-grove-the-source-1br-1",
+      "name": "Saadiyat Grove & The Source",
+      "projectName": "Saadiyat Grove & The Source",
+      "buildingName": "Saadiyat Grove - The Heart (1 bed)",
+      "island": "Saadiyat Island",
+      "location": "Saadiyat Island",
+      "developer": "Aldar",
+      "unitType": "Apartment",
+      "bedrooms": "1BR",
+      "areaSqFt": 724,
+      "areaSqm": 67.26,
+      "transactionAmountAED": 2207476,
+      "askingAED": 1614324,
+      "actualSaleAmountAED": 1614324,
+      "serviceChargeSqFt": 21,
+      "completionStatus": "Off-plan",
+      "propertyClass": "Off-plan",
+      "coordinates": {
+        "lat": 24.53349,
+        "lng": 54.4067
+      },
+      "transactionDate": "2026-10-30",
+      "portalSource": "ADREC Official Registry (2026-10-30)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 3464
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 2955
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 2879
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-30",
+          "amount": 1614324,
+          "unit": "Saadiyat Grove - The Heart • 1BR (724 sf)",
+          "pricePerSqFt": 2230
+        },
+        {
+          "date": "2026-10-27",
+          "amount": 2990000,
+          "unit": "Saadiyat Grove - The Source Residences • 1BR (902 sf)",
+          "pricePerSqFt": 3315
+        },
+        {
+          "date": "2026-10-22",
+          "amount": 2300000,
+          "unit": "Saadiyat Grove - The Heart • 1BR (724 sf)",
+          "pricePerSqFt": 3177
+        },
+        {
+          "date": "2026-10-16",
+          "amount": 2100000,
+          "unit": "Saadiyat Grove - The Heart • 1BR (733 sf)",
+          "pricePerSqFt": 2865
+        },
+        {
+          "date": "2026-10-15",
+          "amount": 1634929,
+          "unit": "Saadiyat Grove - The Heart • 1BR (730 sf)",
+          "pricePerSqFt": 2240
+        },
+        {
+          "date": "2026-10-14",
+          "amount": 2500000,
+          "unit": "Saadiyat Grove - The Heart • 1BR (731 sf)",
+          "pricePerSqFt": 3420
+        }
+      ]
+    },
+    {
+      "id": "adrec-saadiyat-grove-the-source-2br-1",
+      "name": "Saadiyat Grove & The Source",
+      "projectName": "Saadiyat Grove & The Source",
+      "buildingName": "Saadiyat Grove - The Arthouse (2 beds)",
+      "island": "Saadiyat Island",
+      "location": "Saadiyat Island",
+      "developer": "Aldar",
+      "unitType": "Apartment",
+      "bedrooms": "2BR",
+      "areaSqFt": 1592,
+      "areaSqm": 147.92,
+      "transactionAmountAED": 4955896,
+      "askingAED": 4934192,
+      "actualSaleAmountAED": 4934192,
+      "serviceChargeSqFt": 21,
+      "completionStatus": "Off-plan",
+      "propertyClass": "Off-plan",
+      "coordinates": {
+        "lat": 24.53349,
+        "lng": 54.4067
+      },
+      "transactionDate": "2026-10-29",
+      "portalSource": "ADREC Official Registry (2026-10-29)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 3464
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 2955
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 2879
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-29",
+          "amount": 4934192,
+          "unit": "Saadiyat Grove - The Arthouse • 2BR (1,592 sf)",
+          "pricePerSqFt": 3099
+        },
+        {
+          "date": "2026-10-21",
+          "amount": 7000000,
+          "unit": "Saadiyat Grove - The Source • 2BR (1,550 sf)",
+          "pricePerSqFt": 4516
+        },
+        {
+          "date": "2026-10-20",
+          "amount": 6300000,
+          "unit": "Saadiyat Grove - The Source • 2BR (1,756 sf)",
+          "pricePerSqFt": 3588
+        },
+        {
+          "date": "2026-10-20",
+          "amount": 5600000,
+          "unit": "Saadiyat Grove - The Source • 2BR (1,930 sf)",
+          "pricePerSqFt": 2902
+        },
+        {
+          "date": "2026-10-19",
+          "amount": 3200000,
+          "unit": "Saadiyat Grove - The Heart • 2BR (1,138 sf)",
+          "pricePerSqFt": 2812
+        },
+        {
+          "date": "2026-10-16",
+          "amount": 4050000,
+          "unit": "Saadiyat Grove - The Heart • 2BR (1,271 sf)",
+          "pricePerSqFt": 3186
+        }
+      ]
+    },
+    {
+      "id": "adrec-louvre-abu-dhabi-residences-2br-1",
+      "name": "Louvre Abu Dhabi Residences",
+      "projectName": "Louvre Abu Dhabi Residences",
+      "buildingName": "Louvre Residences (2 beds)",
+      "island": "Saadiyat Island",
+      "location": "Saadiyat Island",
+      "developer": "Aldar",
+      "unitType": "Apartment",
+      "bedrooms": "2BR",
+      "areaSqFt": 1608,
+      "areaSqm": 149.4,
+      "transactionAmountAED": 5425392,
+      "askingAED": 3745546,
+      "actualSaleAmountAED": 3745546,
+      "serviceChargeSqFt": 25,
+      "completionStatus": "Off-plan",
+      "propertyClass": "Off-plan",
+      "coordinates": {
+        "lat": 24.53368,
+        "lng": 54.39861
+      },
+      "transactionDate": "2026-10-30",
+      "portalSource": "ADREC Official Registry (2026-10-30)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 3090
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 3793
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 3164
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-30",
+          "amount": 3745546,
+          "unit": "Louvre Residences • 2BR (1,608 sf)",
+          "pricePerSqFt": 2329
+        },
+        {
+          "date": "2026-10-29",
+          "amount": 3700000,
+          "unit": "Louvre Residences • 2BR (1,313 sf)",
+          "pricePerSqFt": 2818
+        },
+        {
+          "date": "2026-10-14",
+          "amount": 3007513,
+          "unit": "Louvre Residences • 2BR (1,235 sf)",
+          "pricePerSqFt": 2435
+        },
+        {
+          "date": "2026-10-08",
+          "amount": 5350000,
+          "unit": "Louvre Residences • 2BR (1,618 sf)",
+          "pricePerSqFt": 3307
+        },
+        {
+          "date": "2026-10-08",
+          "amount": 5953152,
+          "unit": "Louvre Residences • 2BR (2,036 sf)",
+          "pricePerSqFt": 2924
+        },
+        {
+          "date": "2026-10-06",
+          "amount": 7100000,
+          "unit": "Louvre Residences • 2BR (2,100 sf)",
+          "pricePerSqFt": 3381
+        }
+      ]
+    },
+    {
+      "id": "adrec-louvre-abu-dhabi-residences-studio-1",
+      "name": "Louvre Abu Dhabi Residences",
+      "projectName": "Louvre Abu Dhabi Residences",
+      "buildingName": "Louvre Residences (studio)",
+      "island": "Saadiyat Island",
+      "location": "Saadiyat Island",
+      "developer": "Aldar",
+      "unitType": "Apartment",
+      "bedrooms": "Studio",
+      "areaSqFt": 495,
+      "areaSqm": 46.01,
+      "transactionAmountAED": 1632015,
+      "askingAED": 1327001,
+      "actualSaleAmountAED": 1327001,
+      "serviceChargeSqFt": 25,
+      "completionStatus": "Off-plan",
+      "propertyClass": "Off-plan",
+      "coordinates": {
+        "lat": 24.53368,
+        "lng": 54.39861
+      },
+      "transactionDate": "2026-10-08",
+      "portalSource": "ADREC Official Registry (2026-10-08)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 3090
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 3793
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 3164
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-08",
+          "amount": 1327001,
+          "unit": "Louvre Residences • Studio (495 sf)",
+          "pricePerSqFt": 2681
+        },
+        {
+          "date": "2026-10-08",
+          "amount": 920000,
+          "unit": "Louvre Residences • Studio (480 sf)",
+          "pricePerSqFt": 1917
+        },
+        {
+          "date": "2026-10-05",
+          "amount": 1398976,
+          "unit": "Louvre Residences • Studio (514 sf)",
+          "pricePerSqFt": 2722
+        },
+        {
+          "date": "2026-10-05",
+          "amount": 1405486,
+          "unit": "Louvre Residences • Studio (515 sf)",
+          "pricePerSqFt": 2729
+        },
+        {
+          "date": "2026-08-06",
+          "amount": 1790000,
+          "unit": "Louvre Residences • Studio (478 sf)",
+          "pricePerSqFt": 3745
+        },
+        {
+          "date": "2026-07-24",
+          "amount": 1345226,
+          "unit": "Louvre Residences • Studio (494 sf)",
+          "pricePerSqFt": 2723
+        }
+      ]
+    },
+    {
+      "id": "adrec-saadiyat-lagoons-3br-1",
+      "name": "Saadiyat Lagoons",
+      "projectName": "Saadiyat Lagoons",
+      "buildingName": "Saadiyat Lagoons - Wilds - Phase 1 (4 beds)",
+      "island": "Saadiyat Island",
+      "location": "Saadiyat Island",
+      "developer": "Aldar",
+      "unitType": "Townhouse",
+      "bedrooms": "3BR",
+      "areaSqFt": 5374,
+      "areaSqm": 499.24,
+      "transactionAmountAED": 8609148,
+      "askingAED": 8120520,
+      "actualSaleAmountAED": 8120520,
+      "serviceChargeSqFt": 12.5,
+      "completionStatus": "Off-plan",
+      "propertyClass": "Off-plan",
+      "coordinates": {
+        "lat": 24.5285,
+        "lng": 54.4552
+      },
+      "transactionDate": "2026-10-30",
+      "portalSource": "ADREC Official Registry (2026-10-30)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1561
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 1510
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 1509
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-30",
+          "amount": 8120520,
+          "unit": "Saadiyat Lagoons - Wilds - Phase 1 • 3BR (5,374 sf)",
+          "pricePerSqFt": 1511
+        },
+        {
+          "date": "2026-10-29",
+          "amount": 9000000,
+          "unit": "Saadiyat Lagoons - Phase 2 - Ethir • 3BR (6,201 sf)",
+          "pricePerSqFt": 1451
+        },
+        {
+          "date": "2026-10-29",
+          "amount": 8500000,
+          "unit": "Saadiyat Lagoons - Phase 2 - Al Sidr • 3BR (6,163 sf)",
+          "pricePerSqFt": 1379
+        },
+        {
+          "date": "2026-10-28",
+          "amount": 11750000,
+          "unit": "Saadiyat Lagoons - Wilds - Phase 1 • 3BR (6,737 sf)",
+          "pricePerSqFt": 1744
+        },
+        {
+          "date": "2026-10-28",
+          "amount": 8000000,
+          "unit": "Saadiyat Lagoons - Wilds - Phase 1 • 3BR (5,374 sf)",
+          "pricePerSqFt": 1489
+        },
+        {
+          "date": "2026-10-27",
+          "amount": 9900000,
+          "unit": "Saadiyat Lagoons - Wilds - Phase 1 • 3BR (6,235 sf)",
+          "pricePerSqFt": 1588
+        }
+      ]
+    },
+    {
+      "id": "adrec-manarat-living-the-row-3br-1",
+      "name": "Manarat Living & The Row",
+      "projectName": "Manarat Living & The Row",
+      "buildingName": "The Row Saadiyat (3 beds)",
+      "island": "Saadiyat Island",
+      "location": "Saadiyat Island",
+      "developer": "Aldar",
+      "unitType": "Apartment",
+      "bedrooms": "3BR",
+      "areaSqFt": 3047,
+      "areaSqm": 283.05,
+      "transactionAmountAED": 11228195,
+      "askingAED": 12036477,
+      "actualSaleAmountAED": 12036477,
+      "serviceChargeSqFt": 19.8,
+      "completionStatus": "Off-plan",
+      "propertyClass": "Off-plan",
+      "coordinates": {
+        "lat": 24.53455,
+        "lng": 54.41914
+      },
+      "transactionDate": "2026-10-30",
+      "portalSource": "ADREC Official Registry (2026-10-30)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 3819
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 3469
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 3133
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-30",
+          "amount": 12036477,
+          "unit": "The Row Saadiyat • 3BR (3,047 sf)",
+          "pricePerSqFt": 3950
+        },
+        {
+          "date": "2026-08-26",
+          "amount": 12001300,
+          "unit": "The Row Saadiyat • 3BR (2,841 sf)",
+          "pricePerSqFt": 4224
+        },
+        {
+          "date": "2026-08-26",
+          "amount": 14975300,
+          "unit": "The Row Saadiyat • 3BR (4,207 sf)",
+          "pricePerSqFt": 3560
+        },
+        {
+          "date": "2026-08-18",
+          "amount": 11226176,
+          "unit": "The Row Saadiyat • 3BR (2,844 sf)",
+          "pricePerSqFt": 3947
+        },
+        {
+          "date": "2026-08-12",
+          "amount": 3361149,
+          "unit": "Manarat Living III • 3BR (2,193 sf)",
+          "pricePerSqFt": 1533
+        },
+        {
+          "date": "2026-07-25",
+          "amount": 11449000,
+          "unit": "The Row Saadiyat • 3BR (3,049 sf)",
+          "pricePerSqFt": 3755
+        }
+      ]
+    },
+    {
+      "id": "adrec-manarat-living-the-row-2br-1",
+      "name": "Manarat Living & The Row",
+      "projectName": "Manarat Living & The Row",
+      "buildingName": "The Row Saadiyat (2 beds)",
+      "island": "Saadiyat Island",
+      "location": "Saadiyat Island",
+      "developer": "Aldar",
+      "unitType": "Apartment",
+      "bedrooms": "2BR",
+      "areaSqFt": 1435,
+      "areaSqm": 133.28,
+      "transactionAmountAED": 4372445,
+      "askingAED": 6694872,
+      "actualSaleAmountAED": 6694872,
+      "serviceChargeSqFt": 19.8,
+      "completionStatus": "Off-plan",
+      "propertyClass": "Off-plan",
+      "coordinates": {
+        "lat": 24.53455,
+        "lng": 54.41914
+      },
+      "transactionDate": "2026-10-21",
+      "portalSource": "ADREC Official Registry (2026-10-21)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 3819
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 3469
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 3133
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-21",
+          "amount": 6694872,
+          "unit": "The Row Saadiyat • 2BR (1,435 sf)",
+          "pricePerSqFt": 4665
+        },
+        {
+          "date": "2026-10-13",
+          "amount": 2500000,
+          "unit": "Manarat Living I • 2BR (1,206 sf)",
+          "pricePerSqFt": 2073
+        },
+        {
+          "date": "2026-10-10",
+          "amount": 3050000,
+          "unit": "Manarat Living I • 2BR (1,206 sf)",
+          "pricePerSqFt": 2529
+        },
+        {
+          "date": "2026-10-07",
+          "amount": 8464278,
+          "unit": "The Row Saadiyat • 2BR (2,243 sf)",
+          "pricePerSqFt": 3774
+        },
+        {
+          "date": "2026-10-02",
+          "amount": 5400000,
+          "unit": "The Row Saadiyat • 2BR (1,432 sf)",
+          "pricePerSqFt": 3771
+        },
+        {
+          "date": "2026-09-24",
+          "amount": 2205000,
+          "unit": "Manarat Living I • 2BR (1,071 sf)",
+          "pricePerSqFt": 2059
+        }
+      ]
+    },
+    {
+      "id": "adrec-soho-square-park-view-2br-1",
+      "name": "Soho Square & Park View",
+      "projectName": "Soho Square & Park View",
+      "buildingName": "Park View Residence, Al Saadiyat Island (2 beds)",
+      "island": "Saadiyat Island",
+      "location": "Saadiyat Island",
+      "developer": "Bloom",
+      "unitType": "Apartment",
+      "bedrooms": "2BR",
+      "areaSqFt": 1462,
+      "areaSqm": 135.83,
+      "transactionAmountAED": 2934234,
+      "askingAED": 3100000,
+      "actualSaleAmountAED": 3100000,
+      "serviceChargeSqFt": 17.5,
+      "completionStatus": "Ready",
+      "propertyClass": "Ready",
+      "coordinates": {
+        "lat": 24.5213,
+        "lng": 54.43819
+      },
+      "transactionDate": "2026-10-28",
+      "portalSource": "ADREC Official Registry (2026-10-28)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1930
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 2177
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 2052
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-28",
+          "amount": 3100000,
+          "unit": "Park View Residence, Al Saadiyat Island • 2BR (1,462 sf)",
+          "pricePerSqFt": 2120
+        },
+        {
+          "date": "2026-10-08",
+          "amount": 2511353,
+          "unit": "Nouran Living • 2BR (1,177 sf)",
+          "pricePerSqFt": 2134
+        },
+        {
+          "date": "2026-10-07",
+          "amount": 2471562,
+          "unit": "Nouran Living • 2BR (1,176 sf)",
+          "pricePerSqFt": 2102
+        },
+        {
+          "date": "2026-08-11",
+          "amount": 3100902,
+          "unit": "Nouran Living • 2BR (1,545 sf)",
+          "pricePerSqFt": 2007
+        },
+        {
+          "date": "2026-08-10",
+          "amount": 2225700,
+          "unit": "Nouran Living • 2BR (1,176 sf)",
+          "pricePerSqFt": 1893
+        },
+        {
+          "date": "2026-08-06",
+          "amount": 2580000,
+          "unit": "Nouran Living • 2BR (1,176 sf)",
+          "pricePerSqFt": 2194
+        }
+      ]
+    },
+    {
+      "id": "adrec-soho-square-park-view-1br-1",
+      "name": "Soho Square & Park View",
+      "projectName": "Soho Square & Park View",
+      "buildingName": "Park View Residence, Al Saadiyat Island (1 bed)",
+      "island": "Saadiyat Island",
+      "location": "Saadiyat Island",
+      "developer": "Bloom",
+      "unitType": "Apartment",
+      "bedrooms": "1BR",
+      "areaSqFt": 714,
+      "areaSqm": 66.34,
+      "transactionAmountAED": 1350888,
+      "askingAED": 1354000,
+      "actualSaleAmountAED": 1354000,
+      "serviceChargeSqFt": 17.5,
+      "completionStatus": "Off-plan",
+      "propertyClass": "Off-plan",
+      "coordinates": {
+        "lat": 24.5213,
+        "lng": 54.43819
+      },
+      "transactionDate": "2026-10-21",
+      "portalSource": "ADREC Official Registry (2026-10-21)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 1930
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 2177
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 2052
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-21",
+          "amount": 1354000,
+          "unit": "Park View Residence, Al Saadiyat Island • 1BR (714 sf)",
+          "pricePerSqFt": 1896
+        },
+        {
+          "date": "2026-10-15",
+          "amount": 1554000,
+          "unit": "Park View Residence, Al Saadiyat Island • 1BR (834 sf)",
+          "pricePerSqFt": 1863
+        },
+        {
+          "date": "2026-10-15",
+          "amount": 1531000,
+          "unit": "Park View Residence, Al Saadiyat Island • 1BR (825 sf)",
+          "pricePerSqFt": 1856
+        },
+        {
+          "date": "2026-08-11",
+          "amount": 1604529,
+          "unit": "Nouran Living • 1BR (761 sf)",
+          "pricePerSqFt": 2108
+        },
+        {
+          "date": "2026-08-11",
+          "amount": 1560000,
+          "unit": "Nouran Living • 1BR (759 sf)",
+          "pricePerSqFt": 2055
+        },
+        {
+          "date": "2026-08-07",
+          "amount": 1640000,
+          "unit": "Nouran Living • 1BR (843 sf)",
+          "pricePerSqFt": 1945
+        }
+      ]
+    },
+    {
+      "id": "adrec-saadiyat-reserve-hidd-2br-1",
+      "name": "Saadiyat Reserve & Hidd",
+      "projectName": "Saadiyat Reserve & Hidd",
+      "buildingName": "Saadiyat Reserve (Plots) (unclassified)",
+      "island": "Saadiyat Island",
+      "location": "Saadiyat Island",
+      "developer": "Aldar",
+      "unitType": "Townhouse",
+      "bedrooms": "2BR",
+      "areaSqFt": 8590,
+      "areaSqm": 798,
+      "transactionAmountAED": 12867820,
+      "askingAED": 6650000,
+      "actualSaleAmountAED": 6650000,
+      "serviceChargeSqFt": 13,
+      "completionStatus": "Ready",
+      "propertyClass": "Ready",
+      "coordinates": {
+        "lat": 24.53496,
+        "lng": 54.44261
+      },
+      "transactionDate": "2026-10-16",
+      "portalSource": "ADREC Official Registry (2026-10-16)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 3131
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 3128
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 2011
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-16",
+          "amount": 6650000,
+          "unit": "Saadiyat Reserve (Plots) • 2BR (8,590 sf)",
+          "pricePerSqFt": 774
+        },
+        {
+          "date": "2026-09-08",
+          "amount": 5400000,
+          "unit": "Saadiyat Reserve (Plots) • 2BR (6,588 sf)",
+          "pricePerSqFt": 820
+        },
+        {
+          "date": "2026-08-26",
+          "amount": 6750000,
+          "unit": "Saadiyat Reserve (Plots) • 2BR (8,638 sf)",
+          "pricePerSqFt": 781
+        },
+        {
+          "date": "2026-08-19",
+          "amount": 20000000,
+          "unit": "Saadiyat Reserve (Plots) • 2BR (10,979 sf)",
+          "pricePerSqFt": 1822
+        },
+        {
+          "date": "2026-05-13",
+          "amount": 16000000,
+          "unit": "Jawaher Al Saadiyat • 2BR (7,251 sf)",
+          "pricePerSqFt": 2207
+        },
+        {
+          "date": "2026-05-11",
+          "amount": 8000000,
+          "unit": "Saadiyat Reserve (Plots) • 2BR (10,785 sf)",
+          "pricePerSqFt": 742
+        }
+      ]
+    },
+    {
+      "id": "adrec-saadiyat-reserve-hidd-3br-1",
+      "name": "Saadiyat Reserve & Hidd",
+      "projectName": "Saadiyat Reserve & Hidd",
+      "buildingName": "Hidd Al Saadiyat - Al Suhoul (5 beds)",
+      "island": "Saadiyat Island",
+      "location": "Saadiyat Island",
+      "developer": "Aldar",
+      "unitType": "Townhouse",
+      "bedrooms": "3BR",
+      "areaSqFt": 4693,
+      "areaSqm": 435.99,
+      "transactionAmountAED": 17035590,
+      "askingAED": 16950000,
+      "actualSaleAmountAED": 16950000,
+      "serviceChargeSqFt": 13,
+      "completionStatus": "Ready",
+      "propertyClass": "Ready",
+      "coordinates": {
+        "lat": 24.53496,
+        "lng": 54.44261
+      },
+      "transactionDate": "2026-10-16",
+      "portalSource": "ADREC Official Registry (2026-10-16)",
+      "listingUrl": "https://trackadrec.com",
+      "historicalTrends": [
+        {
+          "quarter": "2026 Q1",
+          "avgSqFt": 3131
+        },
+        {
+          "quarter": "2026 Q2",
+          "avgSqFt": 3128
+        },
+        {
+          "quarter": "2026 Q3",
+          "avgSqFt": 2011
+        }
+      ],
+      "recentRawTransactions": [
+        {
+          "date": "2026-10-16",
+          "amount": 16950000,
+          "unit": "Hidd Al Saadiyat - Al Suhoul • 3BR (4,693 sf)",
+          "pricePerSqFt": 3612
+        },
+        {
+          "date": "2026-07-14",
+          "amount": 20000000,
+          "unit": "Hidd Al Saadiyat - Al Suhoul • 3BR (6,015 sf)",
+          "pricePerSqFt": 3325
+        },
+        {
+          "date": "2026-07-02",
+          "amount": 16000000,
+          "unit": "Hidd Al Saadiyat - Al Suhoul • 3BR (4,556 sf)",
+          "pricePerSqFt": 3512
+        },
+        {
+          "date": "2026-07-01",
+          "amount": 10000000,
+          "unit": "Saadiyat Reserve - The Dunes • 3BR (4,628 sf)",
+          "pricePerSqFt": 2161
+        },
+        {
+          "date": "2026-07-01",
+          "amount": 13500000,
+          "unit": "Jawaher Al Saadiyat • 3BR (10,469 sf)",
+          "pricePerSqFt": 1290
+        },
+        {
+          "date": "2026-06-29",
+          "amount": 13500000,
+          "unit": "Hidd Al Saadiyat - Al Suhoul • 3BR (4,556 sf)",
+          "pricePerSqFt": 2963
+        }
+      ]
+    }
+  ]
+}

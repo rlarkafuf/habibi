@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
-import { Search, RotateCcw } from 'lucide-react';
+import { Search, RotateCcw, ArrowUpDown, Flame } from 'lucide-react';
 
 const INITIAL_FILTERS = {
   island: 'All',
   location: 'All',
   developer: 'All',
   completionStatus: 'All',
-  unitType: 'All',
   bedrooms: 'All',
+  dealType: 'All',
+  sortBy: 'gapAsc',
   minPrice: '',
   maxPrice: ''
 };
@@ -37,10 +38,10 @@ export default function FilterBar({ onFilterChange }) {
   };
 
   return (
-    <div className="bg-white p-4 rounded-xl shadow-sm border border-gray-200 mb-6">
-      <form onSubmit={handleApply} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-4 items-end">
+    <div className="bg-white p-4 rounded-xl shadow-xs border border-gray-200 mb-6">
+      <form onSubmit={handleApply} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-8 gap-3 items-end">
         <div>
-          <label className="block text-xs font-semibold text-gray-600 mb-1">Island (지역)</label>
+          <label className="block text-xs font-semibold text-gray-600 mb-1">Island</label>
           <select
             name="island"
             value={filters.island}
@@ -55,7 +56,7 @@ export default function FilterBar({ onFilterChange }) {
         </div>
 
         <div>
-          <label className="block text-xs font-semibold text-gray-600 mb-1">Developer (시공사)</label>
+          <label className="block text-xs font-semibold text-gray-600 mb-1">Developer</label>
           <select
             name="developer"
             value={filters.developer}
@@ -65,11 +66,16 @@ export default function FilterBar({ onFilterChange }) {
             <option value="All">All Developers</option>
             <option value="Aldar">Aldar</option>
             <option value="Tamouh">Tamouh</option>
+            <option value="Q Properties">Q Properties (Reem Hills)</option>
+            <option value="IMKAN">IMKAN (Pixel)</option>
+            <option value="Radiant">Radiant</option>
+            <option value="Nine Yards">Nine Yards (Sea La Vie)</option>
+            <option value="Bloom">Bloom (Soho Square)</option>
           </select>
         </div>
 
         <div>
-          <label className="block text-xs font-semibold text-gray-600 mb-1">Status (준공 여부)</label>
+          <label className="block text-xs font-semibold text-gray-600 mb-1">Completion Status</label>
           <select
             name="completionStatus"
             value={filters.completionStatus}
@@ -77,7 +83,7 @@ export default function FilterBar({ onFilterChange }) {
             className="w-full border border-gray-300 rounded-lg p-2 text-sm focus:ring-blue-500 focus:border-blue-500 bg-white"
           >
             <option value="All">Ready & Off-plan</option>
-            <option value="Ready">Ready</option>
+            <option value="Ready">Ready to Move</option>
             <option value="Off-plan">Off-plan</option>
           </select>
         </div>
@@ -99,25 +105,48 @@ export default function FilterBar({ onFilterChange }) {
         </div>
 
         <div>
-          <label className="block text-xs font-semibold text-gray-600 mb-1">Min Asking (AED)</label>
-          <input
-            type="number"
-            name="minPrice"
-            value={filters.minPrice}
+          <label className="block text-xs font-semibold text-gray-600 mb-1 flex items-center gap-1">
+            <Flame size={12} className="text-emerald-600" /> Deal Valuation
+          </label>
+          <select
+            name="dealType"
+            value={filters.dealType}
             onChange={handleChange}
-            placeholder="e.g. 1000000"
             className="w-full border border-gray-300 rounded-lg p-2 text-sm focus:ring-blue-500 focus:border-blue-500 bg-white"
-          />
+          >
+            <option value="All">All Listings</option>
+            <option value="below">🔥 Below Market (Hot Deal)</option>
+            <option value="fair">⚖️ Fair Market Price</option>
+            <option value="premium">📈 Above Market Average</option>
+          </select>
         </div>
 
         <div>
-          <label className="block text-xs font-semibold text-gray-600 mb-1">Max Asking (AED)</label>
+          <label className="block text-xs font-semibold text-gray-600 mb-1 flex items-center gap-1">
+            <ArrowUpDown size={12} className="text-blue-600" /> Sort By
+          </label>
+          <select
+            name="sortBy"
+            value={filters.sortBy}
+            onChange={handleChange}
+            className="w-full border border-gray-300 rounded-lg p-2 text-sm focus:ring-blue-500 focus:border-blue-500 bg-white"
+          >
+            <option value="gapAsc">🔥 Biggest Discount First (Gap %)</option>
+            <option value="priceAsc">Price: Low to High (AED)</option>
+            <option value="priceDesc">Price: High to Low (AED)</option>
+            <option value="sqftAsc">Lowest AED/sqft First</option>
+            <option value="dateDesc">Newest Transactions First</option>
+          </select>
+        </div>
+
+        <div>
+          <label className="block text-xs font-semibold text-gray-600 mb-1">Max Price (AED)</label>
           <input
             type="number"
             name="maxPrice"
             value={filters.maxPrice}
             onChange={handleChange}
-            placeholder="e.g. 5000000"
+            placeholder="e.g. 3000000"
             className="w-full border border-gray-300 rounded-lg p-2 text-sm focus:ring-blue-500 focus:border-blue-500 bg-white"
           />
         </div>
