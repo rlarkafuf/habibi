@@ -3,8 +3,9 @@ import { Search } from 'lucide-react';
 
 export default function FilterBar({ onFilterChange }) {
   const [filters, setFilters] = useState({
-    location: 'All',
-    unitType: 'All',
+    island: 'All',
+    developer: 'All',
+    completionStatus: 'All',
     bedrooms: 'All',
     minPrice: '',
     maxPrice: ''
@@ -25,14 +26,14 @@ export default function FilterBar({ onFilterChange }) {
     <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-200 mb-6">
       <form onSubmit={handleApply} className="flex flex-col md:flex-row gap-4 flex-wrap items-end">
         <div className="flex-1 min-w-[150px]">
-          <label className="block text-sm font-medium text-gray-700 mb-1">Region</label>
+          <label className="block text-sm font-medium text-gray-700 mb-1">Island</label>
           <select
-            name="location"
-            value={filters.location}
+            name="island"
+            value={filters.island}
             onChange={handleChange}
             className="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500 bg-white"
           >
-            <option value="All">All Regions</option>
+            <option value="All">All Islands</option>
             <option value="Al Reem Island">Al Reem Island</option>
             <option value="Yas Island">Yas Island</option>
             <option value="Saadiyat Island">Saadiyat Island</option>
@@ -40,17 +41,31 @@ export default function FilterBar({ onFilterChange }) {
         </div>
 
         <div className="flex-1 min-w-[150px]">
-          <label className="block text-sm font-medium text-gray-700 mb-1">Property Type</label>
+          <label className="block text-sm font-medium text-gray-700 mb-1">Developer</label>
           <select
-            name="unitType"
-            value={filters.unitType}
+            name="developer"
+            value={filters.developer}
             onChange={handleChange}
             className="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500 bg-white"
           >
-            <option value="All">All Types</option>
-            <option value="Apartment">Apartment</option>
-            <option value="Townhouse">Townhouse</option>
-            <option value="Villa">Villa</option>
+            <option value="All">All Developers</option>
+            <option value="Aldar">Aldar</option>
+            <option value="Tamouh">Tamouh</option>
+            <option value="Modon">Modon</option>
+          </select>
+        </div>
+
+        <div className="flex-1 min-w-[150px]">
+          <label className="block text-sm font-medium text-gray-700 mb-1">Status</label>
+          <select
+            name="completionStatus"
+            value={filters.completionStatus}
+            onChange={handleChange}
+            className="w-full border border-gray-300 rounded-md p-2 focus:ring-blue-500 focus:border-blue-500 bg-white"
+          >
+            <option value="All">All Classes</option>
+            <option value="Ready">Ready</option>
+            <option value="Off-plan">Off-plan</option>
           </select>
         </div>
 
@@ -66,7 +81,9 @@ export default function FilterBar({ onFilterChange }) {
             <option value="Studio">Studio</option>
             <option value="1BR">1BR</option>
             <option value="2BR">2BR</option>
-            <option value="3BR+">3BR+</option>
+            <option value="3BR">3BR</option>
+            <option value="4BR">4BR</option>
+            <option value="5BR+">5BR+</option>
           </select>
         </div>
 

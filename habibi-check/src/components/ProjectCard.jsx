@@ -5,17 +5,17 @@ import { MapPin, Home, TrendingUp, History, Tag } from 'lucide-react';
 export default function ProjectCard({ property, metrics }) {
   const {
     projectName,
-    buildingName,
-    location,
-    unitType,
+    name,
+    island,
     bedrooms,
     areaSqFt,
     transactionAmountAED,
+    askingAED,
     transactionDate,
-    propertyClass
+    completionStatus
   } = property;
 
-  const evaluation = propertyService.evaluateDeal(property, metrics);
+  const evaluation = propertyService.analyzePriceGap(askingAED, areaSqFt, bedrooms, metrics.projectTransactions || []);
 
   const formatCurrency = (amount) => {
     return new Intl.NumberFormat('en-AE', { style: 'currency', currency: 'AED', maximumFractionDigits: 0 }).format(amount);
@@ -23,9 +23,9 @@ export default function ProjectCard({ property, metrics }) {
 
   const getBadgeColor = (type) => {
     switch(type) {
-      case 'below': return 'bg-green-100 text-green-800 border-green-200';
-      case 'premium': return 'bg-red-100 text-red-800 border-red-200';
-      default: return 'bg-blue-100 text-blue-800 border-blue-200';
+      case 'below': return 'bg-blue-100 text-blue-800 border-blue-200'; // Hogangnono style: cheap is blue
+      case 'premium': return 'bg-red-100 text-red-800 border-red-200'; // expensive is red
+      default: return 'bg-gray-100 text-gray-800 border-gray-200';
     }
   };
 
@@ -36,7 +36,7 @@ export default function ProjectCard({ property, metrics }) {
           <div>
             <h3 className="text-xl font-bold text-gray-900">{projectName}</h3>
             <p className="text-gray-500 text-sm flex items-center gap-1 mt-1">
-              <MapPin size={14} /> {buildingName}, {location}
+              <MapPin size={14} /> {name}, {island}
             </p>
           </div>
           <span className={`px-3 py-1 rounded-full text-xs font-semibold border ${getBadgeColor(evaluation.type)}`}>
@@ -47,13 +47,13 @@ export default function ProjectCard({ property, metrics }) {
         <div className="grid grid-cols-2 gap-4 mb-6">
           <div className="bg-gray-50 p-3 rounded-lg">
             <p className="text-xs text-gray-500 mb-1 flex items-center gap-1"><Home size={12} /> Unit Details</p>
-            <p className="font-semibold text-sm">{unitType} • {bedrooms}</p>
-            <p className="text-sm text-gray-700">{areaSqFt} sqft • {propertyClass}</p>
+            <p className="font-semibold text-sm">{bedrooms}</p>
+            <p className="text-sm text-gray-700">{areaSqFt} sqft • {completionStatus}</p>
           </div>
           <div className="bg-gray-50 p-3 rounded-lg">
-            <p className="text-xs text-gray-500 mb-1 flex items-center gap-1"><Tag size={12} /> Transaction (AED)</p>
-            <p className="font-bold text-blue-700 text-lg">{formatCurrency(transactionAmountAED)}</p>
-            <p className="text-xs text-gray-500">{new Date(transactionDate).toLocaleDateString()}</p>
+            <p className="text-xs text-gray-500 mb-1 flex items-center gap-1"><Tag size={12} /> Asking (AED)</p>
+            <p className="font-bold text-blue-700 text-lg">{formatCurrency(askingAED)}</p>
+            <p className="text-xs text-gray-500">Avg TX: {formatCurrency(transactionAmountAED)}</p>
           </div>
         </div>
 

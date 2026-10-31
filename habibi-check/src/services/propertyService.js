@@ -20,11 +20,14 @@ export const propertyService = {
 
     let result = transactions;
 
-    if (filters.location && filters.location !== 'All') {
-      result = result.filter(p => p.location === filters.location);
+    if (filters.island && filters.island !== 'All') {
+      result = result.filter(p => p.island === filters.island);
     }
-    if (filters.unitType && filters.unitType !== 'All') {
-      result = result.filter(p => p.unitType === filters.unitType);
+    if (filters.developer && filters.developer !== 'All') {
+      result = result.filter(p => p.developer === filters.developer);
+    }
+    if (filters.completionStatus && filters.completionStatus !== 'All') {
+      result = result.filter(p => p.completionStatus === filters.completionStatus);
     }
     if (filters.bedrooms && filters.bedrooms !== 'All') {
       result = result.filter(p => p.bedrooms === filters.bedrooms);
@@ -47,7 +50,7 @@ export const propertyService = {
     const projectTransactions = transactions.filter(p => p.projectName === projectName);
 
     if (projectTransactions.length === 0) {
-      return { averagePricePerSqFt: 0, recentTransactions: [] };
+      return { averagePricePerSqFt: 0, recentTransactions: [], projectTransactions: [] };
     }
 
     let totalAmount = 0;
@@ -66,33 +69,48 @@ export const propertyService = {
       .map(tx => ({
         date: tx.transactionDate,
         amount: tx.transactionAmountAED,
-        unit: tx.buildingName + ' - ' + tx.bedrooms,
+        askingAED: tx.askingAED,
+        unit: tx.name + ' - ' + tx.bedrooms,
         pricePerSqFt: tx.transactionAmountAED / tx.areaSqFt
       }));
 
     return {
       averagePricePerSqFt,
-      recentTransactions
+      recentTransactions,
+      projectTransactions
     };
   },
 
   /**
-   * Evaluate a deal compared to its project average
+   * Analyze price gap compared to official DARI transaction averages for the exact same bedroom tier within the same project.
    */
-  evaluateDeal(property, projectMetrics) {
-    const propertyPricePerSqFt = property.transactionAmountAED / property.areaSqFt;
-    const avgPrice = projectMetrics.averagePricePerSqFt;
+  analyzePriceGap(askingAED, areaSqFt, bedroom, projectTxs) {
+    const similarTxs = projectTxs.filter(tx => tx.bedrooms === bedroom);
 
-    if (!avgPrice || avgPrice === 0) return { badge: "⚖️ Fair Value", type: "fair" };
+    if (similarTxs.length === 0) {
+      return { badge: "⚖️ 적정 호가", type: "fair", gapRate: 0 };
+    }
 
-    const ratio = propertyPricePerSqFt / avgPrice;
+    let totalDariAmount = 0;
+    let totalDariArea = 0;
 
-    if (ratio < 0.95) {
-      return { badge: "🔥 Below Market", type: "below" };
-    } else if (ratio > 1.05) {
-      return { badge: "📈 Premium Price", type: "premium" };
+    similarTxs.forEach(tx => {
+      totalDariAmount += tx.transactionAmountAED;
+      totalDariArea += tx.areaSqFt;
+    });
+
+    const dariAvgSqFt = totalDariAmount / totalDariArea;
+    const askingSqFt = askingAED / areaSqFt;
+
+    const gapRate = ((askingSqFt - dariAvgSqFt) / dariAvgSqFt) * 100;
+    const absGap = Math.abs(Math.round(gapRate));
+
+    if (gapRate <= -3) {
+      return { badge: `🔥 평균 시세 대비 ${absGap}% 저렴`, type: "below", gapRate };
+    } else if (gapRate >= 5) {
+      return { badge: `📈 시세 대비 +${absGap}%`, type: "premium", gapRate };
     } else {
-      return { badge: "⚖️ Fair Value", type: "fair" };
+      return { badge: "⚖️ 적정 호가", type: "fair", gapRate };
     }
   }
 };
