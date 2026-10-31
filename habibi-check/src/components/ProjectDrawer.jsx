@@ -10,12 +10,17 @@ export default function ProjectDrawer({ isOpen, onClose, projectName, metrics, p
   };
 
   const getBadgeColor = (type) => {
-    switch(type) {
-      case 'below': return 'bg-blue-100 text-blue-800 border-blue-200'; // Hogangnono style: cheap is blue
-      case 'premium': return 'bg-red-100 text-red-800 border-red-200'; // expensive is red
-      default: return 'bg-gray-100 text-gray-800 border-gray-200';
+    switch (type) {
+      case 'below':
+        return 'bg-blue-100 text-blue-800 border-blue-200'; // Hogangnono style: cheap is blue
+      case 'premium':
+        return 'bg-red-100 text-red-800 border-red-200'; // expensive is red
+      default:
+        return 'bg-gray-100 text-gray-800 border-gray-200';
     }
   };
+
+  const safeMetrics = metrics || { averagePricePerSqFt: 0, projectTransactions: [], recentTransactions: [] };
 
   return (
     <>
@@ -34,10 +39,10 @@ export default function ProjectDrawer({ isOpen, onClose, projectName, metrics, p
 
           <div className="bg-blue-50 p-4 rounded-xl mb-8 border border-blue-100">
             <h3 className="text-sm font-semibold text-blue-800 mb-1 flex items-center gap-2">
-              <TrendingUp size={16} /> Project Average
+              <TrendingUp size={16} /> Project Average (DARI Baseline)
             </h3>
             <p className="text-3xl font-bold text-blue-900">
-              {formatCurrency(metrics.averagePricePerSqFt)} <span className="text-sm font-normal text-blue-700">/ sqft</span>
+              {formatCurrency(safeMetrics.averagePricePerSqFt)} <span className="text-sm font-normal text-blue-700">/ sqft</span>
             </p>
           </div>
 
@@ -47,12 +52,17 @@ export default function ProjectDrawer({ isOpen, onClose, projectName, metrics, p
             </h3>
             <div className="space-y-4">
               {properties.map(prop => {
-                const analysis = propertyService.analyzePriceGap(prop.askingAED, prop.areaSqFt, prop.bedrooms, metrics.projectTransactions);
+                const analysis = propertyService.analyzePriceGap(
+                  prop.askingAED,
+                  prop.areaSqFt,
+                  prop.bedrooms,
+                  safeMetrics.projectTransactions
+                );
 
                 return (
                   <div key={prop.id} className="bg-white border border-gray-200 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow">
                     <div className="flex justify-between items-start mb-2">
-                      <span className="font-bold text-gray-900">{prop.name} - {prop.bedrooms}</span>
+                      <span className="font-bold text-gray-900">{prop.buildingName || prop.name} - {prop.bedrooms}</span>
                       <span className={`px-2 py-1 rounded-full text-xs font-semibold border ${getBadgeColor(analysis.type)}`}>
                         {analysis.badge}
                       </span>
@@ -77,10 +87,10 @@ export default function ProjectDrawer({ isOpen, onClose, projectName, metrics, p
             <h3 className="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2 border-b pb-2">
               <Tag size={20} className="text-gray-500" /> Recent Official Transactions
             </h3>
-            {metrics.recentTransactions && metrics.recentTransactions.length > 0 ? (
+            {safeMetrics.recentTransactions && safeMetrics.recentTransactions.length > 0 ? (
               <div className="bg-gray-50 rounded-lg p-4 border border-gray-200">
                 <ul className="space-y-3">
-                  {metrics.recentTransactions.map((tx, idx) => (
+                  {safeMetrics.recentTransactions.map((tx, idx) => (
                     <li key={idx} className="flex justify-between items-center border-b border-gray-200 pb-3 last:border-0 last:pb-0">
                       <div>
                         <p className="text-sm font-semibold text-gray-900">{tx.unit}</p>
@@ -98,7 +108,6 @@ export default function ProjectDrawer({ isOpen, onClose, projectName, metrics, p
               <p className="text-sm text-gray-500 italic">No recent transactions available.</p>
             )}
           </div>
-
         </div>
       </div>
     </>

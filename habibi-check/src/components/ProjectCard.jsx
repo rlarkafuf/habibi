@@ -1,78 +1,125 @@
 import React from 'react';
-import { propertyService } from '../services/propertyService';
-import { MapPin, Home, TrendingUp, History, Tag } from 'lucide-react';
+import { analyzePriceGap } from '../services/propertyService';
+import { MapPin, Home, TrendingUp, History, Tag, ShieldCheck } from 'lucide-react';
 
 export default function ProjectCard({ property, metrics }) {
   const {
-    projectName,
     name,
+    projectName,
+    buildingName,
     island,
+    location,
+    developer,
+    unitType,
     bedrooms,
     areaSqFt,
     transactionAmountAED,
     askingAED,
+    serviceChargeSqFt,
     transactionDate,
-    completionStatus
+    completionStatus,
+    propertyClass
   } = property;
 
-  const evaluation = propertyService.analyzePriceGap(askingAED, areaSqFt, bedrooms, metrics.projectTransactions || []);
+  const displayName = projectName || name;
+  const displayBuilding = buildingName || name;
+  const displayIsland = island || location;
+  const displayStatus = completionStatus || propertyClass || 'Ready';
+  const txPool = metrics?.projectTransactions?.length ? metrics.projectTransactions : [property];
 
-  const formatCurrency = (amount) => {
-    return new Intl.NumberFormat('en-AE', { style: 'currency', currency: 'AED', maximumFractionDigits: 0 }).format(amount);
-  };
+  const evaluation = analyzePriceGap(askingAED, areaSqFt, bedrooms, txPool);
+
+  const formatCurrency = (amount) =>
+    new Intl.NumberFormat('en-AE', { style: 'currency', currency: 'AED', maximumFractionDigits: 0 }).format(amount);
 
   const getBadgeColor = (type) => {
-    switch(type) {
-      case 'below': return 'bg-blue-100 text-blue-800 border-blue-200'; // Hogangnono style: cheap is blue
-      case 'premium': return 'bg-red-100 text-red-800 border-red-200'; // expensive is red
-      default: return 'bg-gray-100 text-gray-800 border-gray-200';
+    switch (type) {
+      case 'below':
+        return 'bg-emerald-50 text-emerald-800 border-emerald-200';
+      case 'premium':
+        return 'bg-rose-50 text-rose-800 border-rose-200';
+      default:
+        return 'bg-blue-50 text-blue-800 border-blue-200';
     }
   };
 
   return (
-    <div className="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition-shadow">
+    <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow flex flex-col justify-between">
       <div className="p-5">
-        <div className="flex justify-between items-start mb-4">
+        <div className="flex justify-between items-start gap-2 mb-3">
           <div>
-            <h3 className="text-xl font-bold text-gray-900">{projectName}</h3>
-            <p className="text-gray-500 text-sm flex items-center gap-1 mt-1">
-              <MapPin size={14} /> {name}, {island}
+            <div className="flex items-center gap-1.5 mb-1">
+              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-bold bg-indigo-50 text-indigo-700 border border-indigo-100">
+                <ShieldCheck size={12} /> {developer}
+              </span>
+              <span className="px-2 py-0.5 rounded text-[11px] font-semibold bg-amber-50 text-amber-800 border border-amber-100">
+                SC ~{serviceChargeSqFt} AED/sqft
+              </span>
+            </div>
+            <h3 className="text-lg font-bold text-gray-900">{displayName}</h3>
+            <p className="text-gray-500 text-xs flex items-center gap-1 mt-0.5">
+              <MapPin size={13} /> {displayBuilding} • {displayIsland}
             </p>
           </div>
-          <span className={`px-3 py-1 rounded-full text-xs font-semibold border ${getBadgeColor(evaluation.type)}`}>
+          <span className={`px-2.5 py-1 rounded-full text-xs font-bold border whitespace-nowrap ${getBadgeColor(evaluation.type)}`}>
             {evaluation.badge}
           </span>
         </div>
 
-        <div className="grid grid-cols-2 gap-4 mb-6">
-          <div className="bg-gray-50 p-3 rounded-lg">
-            <p className="text-xs text-gray-500 mb-1 flex items-center gap-1"><Home size={12} /> Unit Details</p>
-            <p className="font-semibold text-sm">{bedrooms}</p>
-            <p className="text-sm text-gray-700">{areaSqFt} sqft • {completionStatus}</p>
+        {/* Unit & Dual-Price Intelligence Box */}
+        <div className="grid grid-cols-2 gap-3 mb-4">
+          <div className="bg-gray-50 p-3 rounded-lg border border-gray-100">
+            <p className="text-[11px] text-gray-500 mb-1 flex items-center gap-1">
+              <Tag size={12} /> 현재 매물 호가 (Asking)
+            </p>
+            <p className="font-extrabold text-blue-700 text-base">{formatCurrency(askingAED)}</p>
+            <p className="text-xs font-medium text-gray-600">
+              {evaluation.askingSqFt.toLocaleString()} AED/sqft
+            </p>
           </div>
-          <div className="bg-gray-50 p-3 rounded-lg">
-            <p className="text-xs text-gray-500 mb-1 flex items-center gap-1"><Tag size={12} /> Asking (AED)</p>
-            <p className="font-bold text-blue-700 text-lg">{formatCurrency(askingAED)}</p>
-            <p className="text-xs text-gray-500">Avg TX: {formatCurrency(transactionAmountAED)}</p>
+
+          <div className="bg-gray-50 p-3 rounded-lg border border-gray-100">
+            <p className="text-[11px] text-gray-500 mb-1 flex items-center gap-1">
+              <Home size={12} /> DARI 실거래 기준 ({bedrooms})
+            </p>
+            <p className="font-bold text-gray-900 text-base">{formatCurrency(transactionAmountAED)}</p>
+            <p className="text-xs text-gray-600">
+              {evaluation.dariAvgSqFt.toLocaleString()} AED/sqft • {areaSqFt.toLocaleString()} sf
+            </p>
           </div>
         </div>
 
-        <div className="border-t border-gray-100 pt-4">
-          <h4 className="text-sm font-semibold text-gray-700 flex items-center gap-2 mb-3">
-            <TrendingUp size={16} className="text-blue-500" />
-            Project Analytics (Avg: {formatCurrency(metrics.averagePricePerSqFt)}/sqft)
+        <div className="flex items-center justify-between text-xs text-gray-500 bg-slate-50 px-3 py-2 rounded-lg mb-4">
+          <span>유형: <strong className="text-gray-800">{unitType || 'Apartment'} ({bedrooms})</strong></span>
+          <span>상태: <strong className="text-gray-800">{displayStatus}</strong></span>
+          <span>호가 갭: <strong className={evaluation.gapRate <= -3 ? 'text-emerald-700' : evaluation.gapRate >= 5 ? 'text-rose-700' : 'text-blue-700'}>
+            {evaluation.gapRate > 0 ? `+${evaluation.gapRate}%` : `${evaluation.gapRate}%`}
+          </strong></span>
+        </div>
+
+        <div className="border-t border-gray-100 pt-3">
+          <h4 className="text-xs font-semibold text-gray-700 flex items-center justify-between mb-2">
+            <span className="flex items-center gap-1.5">
+              <TrendingUp size={14} className="text-blue-600" />
+              단지 실거래 평균 단가
+            </span>
+            <span className="text-blue-700 font-bold">
+              {metrics?.averagePricePerSqFt ? `${metrics.averagePricePerSqFt.toLocaleString()} AED/sqft` : 'N/A'}
+            </span>
           </h4>
 
-          <div className="space-y-2">
-            <p className="text-xs font-medium text-gray-500 flex items-center gap-1 mb-2">
-              <History size={12} /> Recent Transactions in Project
+          <div className="space-y-1.5">
+            <p className="text-[11px] font-medium text-gray-400 flex items-center gap-1">
+              <History size={11} /> 최근 DARI 실거래 내역 ({transactionDate})
             </p>
-            {metrics.recentTransactions && metrics.recentTransactions.length > 0 ? (
+            {metrics?.recentTransactions && metrics.recentTransactions.length > 0 ? (
               <ul className="text-xs text-gray-600 space-y-1">
                 {metrics.recentTransactions.slice(0, 3).map((tx, idx) => (
                   <li key={idx} className="flex justify-between border-b border-gray-50 pb-1 last:border-0">
-                    <span>{new Date(tx.date).toLocaleDateString()} - {tx.unit}</span>
-                    <span className="font-semibold">{formatCurrency(tx.amount)}</span>
+                    <span className="truncate pr-2">{tx.date} • {tx.unit}</span>
+                    <span className="font-semibold text-gray-800 whitespace-nowrap">
+                      {formatCurrency(tx.amount)} ({Math.round(tx.pricePerSqFt).toLocaleString()} AED/sf)
+                    </span>
                   </li>
                 ))}
               </ul>
