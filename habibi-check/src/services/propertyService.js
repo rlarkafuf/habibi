@@ -331,6 +331,13 @@ class PropertyService {
             }));
 
     return {
+      name: projectName,
+      island: projectTransactions[0]?.island || projectTransactions[0]?.location || 'Al Reem Island',
+      developer: projectTransactions[0]?.developer || 'Aldar',
+      serviceChargeSqFt: projectTransactions[0]?.serviceChargeSqFt || 17,
+      completionStatus: projectTransactions[0]?.completionStatus || 'Ready',
+      coordinates: projectTransactions[0]?.coordinates || null,
+      totalTransactions: projectTransactions.length,
       averagePricePerSqFt,
       askingAveragePerSqFt,
       projectGapRate,
