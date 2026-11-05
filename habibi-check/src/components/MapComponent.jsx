@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useState } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
@@ -19,7 +19,22 @@ function ChangeView({ center, zoom }) {
 
 const DEFAULT_CENTER = [24.5050, 54.4800]; // Centered between Al Reem, Saadiyat, and Yas
 
+function formatAEDCompact(num) {
+  if (!num || isNaN(num)) return '';
+  if (num >= 1000000) {
+    const val = (num / 1000000).toFixed(2).replace(/\.00$/, '').replace(/(\.[0-9])0$/, '$1');
+    return `${val}M`;
+  }
+  if (num >= 1000) {
+    return `${Math.round(num / 1000)}K`;
+  }
+  return String(num);
+}
+
 export default function MapComponent({ properties, metricsMap, onMarkerClick }) {
+  // Marker display mode: 'keyUnit' (default Hogangnono pill) | 'minimal' (no price balloons) | 'detailed'
+  const [markerMode, setMarkerMode] = useState('keyUnit');
+
   // Aggregate projects for the map
   const projects = useMemo(() => {
     const projMap = new Map();
@@ -56,21 +71,131 @@ export default function MapComponent({ properties, metricsMap, onMarkerClick }) 
     return 11;
   }, [projects]);
 
-  // Hogangnono-style floating speech-bubble marker
+  // Hogangnono-style marker generator based on active mode
   const createHogangnonoIcon = (project, metrics) => {
-    const avgPrice = metrics?.averagePricePerSqFt || 0;
-    const formattedPrice = Math.round(avgPrice).toLocaleString();
-
-    // Find best deal in this project
     const txPool = metrics?.projectTransactions?.length ? metrics.projectTransactions : project.properties;
     const evaluations = project.properties.map(p =>
       analyzePriceGap(p.askingAED, p.areaSqFt, p.bedrooms, txPool)
     );
     const bestEval = evaluations.sort((a, b) => a.gapRate - b.gapRate)[0] || { gapRate: 0, type: 'fair' };
-
     const isBelow = bestEval.type === 'below';
     const isPremium = bestEval.type === 'premium';
 
+    // 1. Minimal Mode: Clean Landmark Pin without price balloons
+    if (markerMode === 'minimal') {
+      const dotColor = isBelow ? '#059669' : isPremium ? '#e11d48' : '#2563eb';
+      const htmlString = `
+        <div style="
+          display: inline-flex;
+          flex-direction: column;
+          align-items: center;
+          transform: translate(-50%, -100%);
+          cursor: pointer;
+          filter: drop-shadow(0 2px 4px rgba(15, 23, 42, 0.25));
+        ">
+          <div style="
+            background: #ffffff;
+            color: #0f172a;
+            border: 1.5px solid #cbd5e1;
+            border-radius: 9999px;
+            padding: 3px 9px;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            font-family: system-ui, -apple-system, sans-serif;
+            font-size: 11px;
+            font-weight: 700;
+            white-space: nowrap;
+          ">
+            <span style="width: 7px; height: 7px; border-radius: 50%; background: ${dotColor};"></span>
+            <span>${project.projectName}</span>
+          </div>
+          <div style="
+            width: 6px;
+            height: 6px;
+            background: #ffffff;
+            border-right: 1.5px solid #cbd5e1;
+            border-bottom: 1.5px solid #cbd5e1;
+            transform: rotate(45deg);
+            margin-top: -3px;
+          "></div>
+        </div>
+      `;
+      return L.divIcon({
+        className: 'hogangnono-marker-minimal',
+        html: htmlString,
+        iconSize: [0, 0],
+        iconAnchor: [0, 0]
+      });
+    }
+
+    // 2. Key Unit Mode (Default): Authentic Hogangnono single-line horizontal capsule
+    if (markerMode === 'keyUnit') {
+      const coreUnit =
+        project.properties.find(p => p.bedrooms === '2BR') ||
+        project.properties.find(p => p.bedrooms === '1BR') ||
+        project.properties[0];
+
+      const priceLabel = coreUnit
+        ? `${coreUnit.bedrooms} ${formatAEDCompact(coreUnit.askingAED)}`
+        : `${Math.round(metrics?.averagePricePerSqFt || 0)} AED/sf`;
+
+      const bgGradient = isBelow
+        ? 'linear-gradient(135deg, #059669 0%, #047857 100%)'
+        : isPremium
+        ? 'linear-gradient(135deg, #e11d48 0%, #be123c 100%)'
+        : 'linear-gradient(135deg, #1e293b 0%, #0f172a 100%)';
+
+      const htmlString = `
+        <div style="
+          display: inline-flex;
+          flex-direction: column;
+          align-items: center;
+          transform: translate(-50%, -100%);
+          cursor: pointer;
+          filter: drop-shadow(0 4px 8px rgba(15, 23, 42, 0.35));
+          transition: transform 0.15s ease;
+        ">
+          <div style="
+            background: ${bgGradient};
+            color: #ffffff;
+            border: 1.5px solid rgba(255, 255, 255, 0.28);
+            border-radius: 9999px;
+            padding: 3px 10px;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-family: system-ui, -apple-system, sans-serif;
+            font-size: 11px;
+            font-weight: 700;
+            white-space: nowrap;
+          ">
+            ${isBelow ? '<span style="font-size: 10px;">🔥</span>' : ''}
+            <span style="font-weight: 600; color: #f8fafc;">${project.projectName}</span>
+            <span style="width: 1px; height: 10px; background: rgba(255, 255, 255, 0.3);"></span>
+            <span style="font-weight: 800; color: #fbbf24;">${priceLabel}</span>
+          </div>
+          <div style="
+            width: 6px;
+            height: 6px;
+            background: ${isBelow ? '#047857' : isPremium ? '#be123c' : '#0f172a'};
+            transform: rotate(45deg);
+            margin-top: -3px;
+          "></div>
+        </div>
+      `;
+
+      return L.divIcon({
+        className: 'hogangnono-marker-keyunit',
+        html: htmlString,
+        iconSize: [0, 0],
+        iconAnchor: [0, 0]
+      });
+    }
+
+    // 3. Detailed Mode: Full 2-tier breakdown balloon
+    const avgPrice = metrics?.averagePricePerSqFt || 0;
+    const formattedPrice = Math.round(avgPrice).toLocaleString();
     const headerBg = isBelow ? '#059669' : isPremium ? '#e11d48' : '#2563eb';
     const badgeText = isBelow
       ? `🔥 ${bestEval.gapRate}% Deal`
@@ -149,6 +274,46 @@ export default function MapComponent({ properties, metricsMap, onMarkerClick }) 
 
   return (
     <div className="h-[560px] w-full rounded-2xl overflow-hidden shadow-md border border-gray-200 relative z-0">
+      {/* Map Marker Display Mode Switcher */}
+      <div className="absolute top-3 right-3 z-[1000] bg-white/95 backdrop-blur-xs rounded-xl shadow-md border border-gray-200 p-1 flex items-center gap-1 text-xs">
+        <button
+          type="button"
+          onClick={() => setMarkerMode('keyUnit')}
+          className={`px-3 py-1.5 rounded-lg font-semibold transition ${
+            markerMode === 'keyUnit'
+              ? 'bg-blue-600 text-white shadow-xs'
+              : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
+          }`}
+          title="Show key bedroom unit price capsule per community (Hogangnono style)"
+        >
+          Key Unit (Core)
+        </button>
+        <button
+          type="button"
+          onClick={() => setMarkerMode('minimal')}
+          className={`px-3 py-1.5 rounded-lg font-semibold transition ${
+            markerMode === 'minimal'
+              ? 'bg-blue-600 text-white shadow-xs'
+              : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
+          }`}
+          title="Hide price balloons, show clean pins only"
+        >
+          Pins Only
+        </button>
+        <button
+          type="button"
+          onClick={() => setMarkerMode('detailed')}
+          className={`px-3 py-1.5 rounded-lg font-semibold transition ${
+            markerMode === 'detailed'
+              ? 'bg-blue-600 text-white shadow-xs'
+              : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
+          }`}
+          title="Show full price per sqft balloon"
+        >
+          Detailed
+        </button>
+      </div>
+
       <MapContainer
         center={mapCenter}
         zoom={mapZoom}

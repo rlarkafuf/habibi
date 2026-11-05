@@ -8,10 +8,7 @@ import {
   Building2,
   Map as MapIcon,
   List,
-  Database,
-  RefreshCw,
   Upload,
-  CheckCircle2,
   X
 } from 'lucide-react';
 import './index.css';
@@ -182,28 +179,14 @@ function App() {
             </div>
           </div>
 
-          {/* Data Freshness & Source Control Bar */}
+          {/* Source Control Bar */}
           <div className="flex flex-wrap items-center gap-2">
-            <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-800 bg-emerald-50 px-3 py-1.5 rounded-full border border-emerald-200">
-              <Database size={13} className="text-emerald-600" />
-              {dataMeta.source}
-            </span>
-
-            <button
-              type="button"
-              onClick={() => loadMarketData(filters, true)}
-              className="inline-flex items-center gap-1 text-xs font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 px-3 py-1.5 rounded-full transition"
-              title="Re-sync data source now"
-            >
-              <RefreshCw size={12} /> Sync Now
-            </button>
-
             <button
               type="button"
               onClick={() => setFeedModalOpen(true)}
-              className="inline-flex items-center gap-1 text-xs font-semibold text-blue-700 bg-blue-50 hover:bg-blue-100 px-3 py-1.5 rounded-full border border-blue-200 transition"
+              className="inline-flex items-center gap-1.5 text-xs font-semibold text-blue-700 bg-blue-50 hover:bg-blue-100 px-3.5 py-1.5 rounded-full border border-blue-200 transition shadow-2xs"
             >
-              <Upload size={12} /> Connect Live Feed
+              <Upload size={13} /> Connect Data Feed
             </button>
           </div>
         </div>
@@ -211,20 +194,11 @@ function App() {
 
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="mb-6 flex flex-col sm:flex-row sm:items-end justify-between gap-3">
-          <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-1">Abu Dhabi Freehold Market Explorer</h2>
-            <p className="text-sm text-gray-600">
-              Compare official ADREC / DARI transaction baselines against latest unit prices across 24 landmark communities in Al Reem, Yas, and Saadiyat Islands.
-            </p>
-          </div>
-          <div className="text-xs text-gray-500 flex items-center gap-1.5">
-            <CheckCircle2 size={14} className="text-emerald-600" />
-            <span>Last Synced: {new Date(dataMeta.lastSyncedAt).toLocaleString()}</span>
-            <span className="px-2 py-0.5 rounded-full bg-blue-50 text-blue-700 font-semibold border border-blue-200">
-              Auto-Sync (Every 24h)
-            </span>
-          </div>
+        <div className="mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 mb-1">Abu Dhabi Freehold Market Explorer</h2>
+          <p className="text-sm text-gray-600">
+            Compare official ADREC / DARI transaction baselines against asking prices across 24 landmark communities in Al Reem, Yas, and Saadiyat Islands.
+          </p>
         </div>
 
         <FilterBar onFilterChange={handleFilterChange} />
@@ -290,7 +264,7 @@ function App() {
               <div>
                 <h3 className="text-lg font-bold text-gray-900">Import Live Market Feed / JSON</h3>
                 <p className="text-xs text-gray-500 mt-0.5">
-                  Paste an ADREC, Property Finder, Bayut, or Supabase JSON array to normalize and sync immediately.
+                  Source: <span className="font-semibold text-gray-700">{dataMeta?.source || 'ADREC Verified Store'}</span>. Paste a custom JSON array to import.
                 </p>
               </div>
               <button
